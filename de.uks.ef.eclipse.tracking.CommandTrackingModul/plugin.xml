@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="de.uks.ef.eclipse.tracking.CommandTrackingModul" name="de.uks.ef.eclipse.tracking.CommandTrackingModul" schema="schema/de.uks.ef.eclipse.tracking.CommandTrackingModul.exsd"/>
+   <extension
+         point="de.uks.ef.eclipse.tracking.CommandTrackingModul">
+      <CommandReportModul
+            class="de.uks.ef.eclipse.tracking.commandtrackingmodul.report.CommandReportModule">
+         <CommandReport
+               class="de.uks.ef.eclipse.tracking.commandtrackingmodul.report.SuccessfulCommandsPieChartReport">
+         </CommandReport>
+         <CommandReport
+               class="de.uks.ef.eclipse.tracking.commandtrackingmodul.report.FailedCommandsPieChartReport">
+         </CommandReport>
+      </CommandReportModul>
+   </extension>
+</plugin>

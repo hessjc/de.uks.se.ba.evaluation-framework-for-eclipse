@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="de.uks.ef.eclipse.report.analysis.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            apply="always"
+            uri="fragment_eclipse_report.e4xmi">
+      </fragment>
+   </extension>
+
+</plugin>

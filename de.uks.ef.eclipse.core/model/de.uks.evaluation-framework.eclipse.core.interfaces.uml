@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_T93xMBDSEeWXQ6hMznMpyA" name="de_uks_evaluation_framework_eclipse_core_interfaces">
+    <eAnnotations xmi:id="_UYzZsBDSEeWXQ6hMznMpyA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_UYzZsRDSEeWXQ6hMznMpyA" source="codegen">
+        <details xmi:id="_UYzZshDSEeWXQ6hMznMpyA" key="codegenDirectory" value="/de.uks.ef.eclipse.core/src"/>
+        <details xmi:id="_VPMPIBDSEeWXQ6hMznMpyA" key="AssociatedSourceCode" value="/de.uks.ef.eclipse.core/src/de/uks/ef/eclipse/core/configuration/EclipseEvaluationConfiguration.java;2157129063/1;/de.uks.ef.core/src/main/java/de/uks/ef/core/model/EvaluationConfiguration.java;3577992954/1;/de.uks.ef.eclipse.core/src/de/uks/ef/eclipse/core/configuration/EclipseEvaluationSender.java;2631488754/1;/de.uks.ef.core/src/main/java/de/uks/ef/core/model/EvaluationSender.java;2212622368/1;/de.uks.ef.core/src/main/java/de/uks/ef/core/model/EvaluationStepConfiguration.java;3273495080/1;/de.uks.ef.eclipse.core/src/de/uks/ef/eclipse/core/configuration/EclipseEvaluationStepConfiguration.java;3314126390/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_U4lF8BDSEeWXQ6hMznMpyA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_U4lF8RDSEeWXQ6hMznMpyA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_U4lF8hDSEeWXQ6hMznMpyA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_U4lF8xDSEeWXQ6hMznMpyA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_U4lF9BDSEeWXQ6hMznMpyA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_U4lF9RDSEeWXQ6hMznMpyA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_U4lF9hDSEeWXQ6hMznMpyA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_U4lF9xDSEeWXQ6hMznMpyA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_U4lF-BDSEeWXQ6hMznMpyA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_U28HMBDSEeWXQ6hMznMpyA" name="de">
+      <packagedElement xmi:type="uml:Package" xmi:id="_U28HMRDSEeWXQ6hMznMpyA" name="uks">
+        <packagedElement xmi:type="uml:Package" xmi:id="_U28HMhDSEeWXQ6hMznMpyA" name="ef">
+          <packagedElement xmi:type="uml:Package" xmi:id="_U28HMxDSEeWXQ6hMznMpyA" name="eclipse">
+            <packagedElement xmi:type="uml:Package" xmi:id="_U28HNBDSEeWXQ6hMznMpyA" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_U31fEBDSEeWXQ6hMznMpyA" name="configuration">
+                <packagedElement xmi:type="uml:Class" xmi:id="_U4bU8BDSEeWXQ6hMznMpyA" name="EclipseEvaluationConfiguration">
+                  <ownedAttribute xmi:id="_U72cYBDSEeWXQ6hMznMpyA" name="email">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_U72cahDSEeWXQ6hMznMpyA" name="url">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_U8ANaBDSEeWXQ6hMznMpyA" name="optionalIdentity" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_U8ANahDSEeWXQ6hMznMpyA" name="evaluation" type="_U6z6kBDSEeWXQ6hMznMpyA" association="_U8mDQBDSEeWXQ6hMznMpyA"/>
+                  <ownedAttribute xmi:id="_U8ANdBDSEeWXQ6hMznMpyA" name="evaluationManager" type="_U7G1gBDSEeWXQ6hMznMpyA" association="_U8mDQxDSEeWXQ6hMznMpyA"/>
+                  <ownedAttribute xmi:id="_U8JXWRDSEeWXQ6hMznMpyA" name="evaluationSender" type="_U7QmgRDSEeWXQ6hMznMpyA" association="_U8mDRhDSEeWXQ6hMznMpyA">
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_U8JXWxDSEeWXQ6hMznMpyA" value="new EclipseEvaluationSender()"/>
+                  </ownedAttribute>
+                  <interfaceRealization xmi:id="_U7jhcBDSEeWXQ6hMznMpyA" client="_U4bU8BDSEeWXQ6hMznMpyA" supplier="_U6z6khDSEeWXQ6hMznMpyA" contract="_U6z6khDSEeWXQ6hMznMpyA"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_U8cSRxDSEeWXQ6hMznMpyA" name="setOptionalIdentity" specification="_U4uP4BDSEeWXQ6hMznMpyA">
+                    <ownedParameter xmi:id="_U8cSSBDSEeWXQ6hMznMpyA" name="optionalIdentity">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>this.optionalIdentity = optionalIdentity;&#xD;
+</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_U8cSSRDSEeWXQ6hMznMpyA" name="isOptionalIdentity" specification="_U44A4RDSEeWXQ6hMznMpyA">
+                    <ownedParameter xmi:id="_U8cSShDSEeWXQ6hMznMpyA" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return this.optionalIdentity;&#xD;
+</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_U8cSVxDSEeWXQ6hMznMpyA" name="sendToEmail" specification="_U44A5hDSEeWXQ6hMznMpyA">
+                    <language>java</language>
+                    <body>evaluationSender.sendToEmail();&#xD;
+</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_U8cSWBDSEeWXQ6hMznMpyA" name="sendToUrl" specification="_U5Bx4hDSEeWXQ6hMznMpyA">
+                    <language>java</language>
+                    <body>evaluationSender.sendToUrl();&#xD;
+</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_U4uP4BDSEeWXQ6hMznMpyA" name="setOptionalIdentity" method="_U8cSRxDSEeWXQ6hMznMpyA">
+                    <ownedParameter xmi:id="_U4uP4RDSEeWXQ6hMznMpyA" name="optionalIdentity">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_U44A4RDSEeWXQ6hMznMpyA" name="isOptionalIdentity" method="_U8cSSRDSEeWXQ6hMznMpyA">
+                    <ownedParameter xmi:id="_U44A4hDSEeWXQ6hMznMpyA" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_U44A5hDSEeWXQ6hMznMpyA" name="sendToEmail" method="_U8cSVxDSEeWXQ6hMznMpyA"/>
+                  <ownedOperation xmi:id="_U5Bx4hDSEeWXQ6hMznMpyA" name="sendToUrl" method="_U8cSWBDSEeWXQ6hMznMpyA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_U8mDQBDSEeWXQ6hMznMpyA" name="" memberEnd="_U8mDQRDSEeWXQ6hMznMpyA _U8ANahDSEeWXQ6hMznMpyA">
+                  <ownedEnd xmi:id="_U8mDQRDSEeWXQ6hMznMpyA" name="" type="_U4bU8BDSEeWXQ6hMznMpyA" association="_U8mDQBDSEeWXQ6hMznMpyA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_U8mDQxDSEeWXQ6hMznMpyA" name="" memberEnd="_U8mDRBDSEeWXQ6hMznMpyA _U8ANdBDSEeWXQ6hMznMpyA">
+                  <ownedEnd xmi:id="_U8mDRBDSEeWXQ6hMznMpyA" name="" type="_U4bU8BDSEeWXQ6hMznMpyA" association="_U8mDQxDSEeWXQ6hMznMpyA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_U8mDRhDSEeWXQ6hMznMpyA" name="" memberEnd="_U8mDRxDSEeWXQ6hMznMpyA _U8JXWRDSEeWXQ6hMznMpyA">
+                  <ownedEnd xmi:id="_U8mDRxDSEeWXQ6hMznMpyA" name="" type="_U4bU8BDSEeWXQ6hMznMpyA" association="_U8mDRhDSEeWXQ6hMznMpyA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_hQZXMBDSEeWXQ6hMznMpyA" name="EclipseEvaluationSender">
+                  <ownedAttribute xmi:id="_hRI-ERDSEeWXQ6hMznMpyA" name="evaluationConfiguration" type="_U6z6khDSEeWXQ6hMznMpyA" association="_hRSIChDSEeWXQ6hMznMpyA"/>
+                  <interfaceRealization xmi:id="_hRI-EBDSEeWXQ6hMznMpyA" client="_hQZXMBDSEeWXQ6hMznMpyA" supplier="_U7QmgRDSEeWXQ6hMznMpyA" contract="_U7QmgRDSEeWXQ6hMznMpyA"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hRSICBDSEeWXQ6hMznMpyA" name="sendToEmail" specification="_hQihIBDSEeWXQ6hMznMpyA">
+                    <language>java</language>
+                    <body>System.out.println(&quot;email sent&quot;);&#xD;
+</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hRSICRDSEeWXQ6hMznMpyA" name="sendToUrl" specification="_hQihJBDSEeWXQ6hMznMpyA">
+                    <language>java</language>
+                    <body>System.out.println(&quot;report sent to server&quot;);&#xD;
+</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_hQihIBDSEeWXQ6hMznMpyA" name="sendToEmail" method="_hRSICBDSEeWXQ6hMznMpyA"/>
+                  <ownedOperation xmi:id="_hQihJBDSEeWXQ6hMznMpyA" name="sendToUrl" method="_hRSICRDSEeWXQ6hMznMpyA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_hRSIChDSEeWXQ6hMznMpyA" name="" memberEnd="_hRSICxDSEeWXQ6hMznMpyA _hRI-ERDSEeWXQ6hMznMpyA">
+                  <ownedEnd xmi:id="_hRSICxDSEeWXQ6hMznMpyA" name="" type="_hQZXMBDSEeWXQ6hMznMpyA" association="_hRSIChDSEeWXQ6hMznMpyA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_5RlJMBDbEeWXQ6hMznMpyA" name="EclipseEvaluationStepConfiguration">
+                  <ownedAttribute xmi:id="_5RwvYBDbEeWXQ6hMznMpyA" name="evaluationStep" type="_2WyMABDbEeWXQ6hMznMpyA" association="_5R3dEBDbEeWXQ6hMznMpyA"/>
+                  <interfaceRealization xmi:id="_5RuTIBDbEeWXQ6hMznMpyA" client="_5RlJMBDbEeWXQ6hMznMpyA" supplier="_2Wnz8BDbEeWXQ6hMznMpyA" contract="_2Wnz8BDbEeWXQ6hMznMpyA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_5R3dEBDbEeWXQ6hMznMpyA" name="" memberEnd="_5R3dERDbEeWXQ6hMznMpyA _5RwvYBDbEeWXQ6hMznMpyA">
+                  <ownedEnd xmi:id="_5R3dERDbEeWXQ6hMznMpyA" name="" type="_5RlJMBDbEeWXQ6hMznMpyA" association="_5R3dEBDbEeWXQ6hMznMpyA"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_U3YzIBDSEeWXQ6hMznMpyA" name="core">
+            <packagedElement xmi:type="uml:Package" xmi:id="_U3YzIRDSEeWXQ6hMznMpyA" name="model">
+              <packagedElement xmi:type="uml:Class" xmi:id="_U6z6kBDSEeWXQ6hMznMpyA" name="Evaluation">
+                <ownedAttribute xmi:id="_bIOfExDSEeWXQ6hMznMpyA" name="evaluationConfiguration" type="_U6z6khDSEeWXQ6hMznMpyA" association="_bIOfFRDSEeWXQ6hMznMpyA">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bIOfFBDSEeWXQ6hMznMpyA"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_U6z6khDSEeWXQ6hMznMpyA" name="EvaluationConfiguration">
+                <eAnnotations xmi:id="_bG5CUBDSEeWXQ6hMznMpyA" source="http://ns.yatta.de/umllab">
+                  <contents xmi:type="ecore:EAnnotation" xmi:id="_bG5CURDSEeWXQ6hMznMpyA" source="codegen">
+                    <details xmi:id="_bHCzUBDSEeWXQ6hMznMpyA" key="codegenDirectory" value="/de.uks.ef.core/src/main/java"/>
+                  </contents>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_bHL9QBDSEeWXQ6hMznMpyA" name="email">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_bHVuQBDSEeWXQ6hMznMpyA" name="url">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_bHVuQRDSEeWXQ6hMznMpyA" name="optionalIdentity">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_bHVuQhDSEeWXQ6hMznMpyA" name="evaluationSender" type="_U7QmgRDSEeWXQ6hMznMpyA" association="_bIOfEhDSEeWXQ6hMznMpyA">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bHVuQxDSEeWXQ6hMznMpyA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_bHe4MBDSEeWXQ6hMznMpyA" name="evaluation" type="_U6z6kBDSEeWXQ6hMznMpyA" association="_bIOfFRDSEeWXQ6hMznMpyA">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bHe4MRDSEeWXQ6hMznMpyA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_bHe4MhDSEeWXQ6hMznMpyA" name="evaluationManager" type="_U7G1gBDSEeWXQ6hMznMpyA" association="_bIOfGRDSEeWXQ6hMznMpyA">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bHe4MxDSEeWXQ6hMznMpyA"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_bHopMBDSEeWXQ6hMznMpyA" name="sendToEmail"/>
+                <ownedOperation xmi:id="_bHopMRDSEeWXQ6hMznMpyA" name="sendToUrl"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_U7G1gBDSEeWXQ6hMznMpyA" name="EvaluationManager">
+                <ownedAttribute xmi:id="_bIOfFhDSEeWXQ6hMznMpyA" name="evaluationConfiguration" type="_U6z6khDSEeWXQ6hMznMpyA" association="_bIOfGRDSEeWXQ6hMznMpyA">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bIOfFxDSEeWXQ6hMznMpyA"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bIOfGBDSEeWXQ6hMznMpyA" value="*"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_U7QmgRDSEeWXQ6hMznMpyA" name="EvaluationSender">
+                <eAnnotations xmi:id="_h5APUBDSEeWXQ6hMznMpyA" source="http://ns.yatta.de/umllab">
+                  <contents xmi:type="ecore:EAnnotation" xmi:id="_h5APURDSEeWXQ6hMznMpyA" source="codegen">
+                    <details xmi:id="_h5APUhDSEeWXQ6hMznMpyA" key="codegenDirectory" value="/de.uks.ef.core/src/main/java"/>
+                  </contents>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_bIOfEBDSEeWXQ6hMznMpyA" name="evaluationConfiguration" type="_U6z6khDSEeWXQ6hMznMpyA" association="_bIOfEhDSEeWXQ6hMznMpyA">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bIOfERDSEeWXQ6hMznMpyA"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_h5APUxDSEeWXQ6hMznMpyA" name="sendToEmail"/>
+                <ownedOperation xmi:id="_h5APVBDSEeWXQ6hMznMpyA" name="sendToUrl"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_bIOfEhDSEeWXQ6hMznMpyA" name="" memberEnd="_bHVuQhDSEeWXQ6hMznMpyA _bIOfEBDSEeWXQ6hMznMpyA"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_bIOfFRDSEeWXQ6hMznMpyA" name="" memberEnd="_bHe4MBDSEeWXQ6hMznMpyA _bIOfExDSEeWXQ6hMznMpyA"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_bIOfGRDSEeWXQ6hMznMpyA" name="" memberEnd="_bIOfFhDSEeWXQ6hMznMpyA _bHe4MhDSEeWXQ6hMznMpyA"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_2Wnz8BDbEeWXQ6hMznMpyA" name="EvaluationStepConfiguration">
+                <eAnnotations xmi:id="_2WppIBDbEeWXQ6hMznMpyA" source="http://ns.yatta.de/umllab">
+                  <contents xmi:type="ecore:EAnnotation" xmi:id="_2WqQMBDbEeWXQ6hMznMpyA" source="codegen">
+                    <details xmi:id="_2WqQMRDbEeWXQ6hMznMpyA" key="codegenDirectory" value="/de.uks.ef.core/src/main/java"/>
+                  </contents>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_2WqQMhDbEeWXQ6hMznMpyA" name="evaluationStep" type="_2WyMABDbEeWXQ6hMznMpyA" association="_2W12YBDbEeWXQ6hMznMpyA">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2Wq3QBDbEeWXQ6hMznMpyA"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_2WyMABDbEeWXQ6hMznMpyA" name="EvaluationStep">
+                <ownedAttribute xmi:id="_2W1PUBDbEeWXQ6hMznMpyA" name="evaluationStepConfiguration" type="_2Wnz8BDbEeWXQ6hMznMpyA" association="_2W12YBDbEeWXQ6hMznMpyA">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2W1PURDbEeWXQ6hMznMpyA"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_2W12YBDbEeWXQ6hMznMpyA" name="" memberEnd="_2WqQMhDbEeWXQ6hMznMpyA _2W1PUBDbEeWXQ6hMznMpyA"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_UY8joBDSEeWXQ6hMznMpyA">
+      <eAnnotations xmi:id="_UZPekBDSEeWXQ6hMznMpyA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_UZsKgBDSEeWXQ6hMznMpyA" base_Package="_T93xMBDSEeWXQ6hMznMpyA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_U4uP4hDSEeWXQ6hMznMpyA" base_Element="_U4uP4BDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:Annotations xmi:id="_U4uP4xDSEeWXQ6hMznMpyA" base_Element="_U4uP4BDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U44A4BDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_U44A4xDSEeWXQ6hMznMpyA" base_Element="_U44A4RDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:Annotations xmi:id="_U44A5BDSEeWXQ6hMznMpyA" base_Element="_U44A4RDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U44A5RDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_U44A5xDSEeWXQ6hMznMpyA" base_Element="_U44A5hDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:Annotations xmi:id="_U5Bx4BDSEeWXQ6hMznMpyA" base_Element="_U44A5hDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U5Bx4RDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_U5Bx4xDSEeWXQ6hMznMpyA" base_Element="_U5Bx4hDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:Annotations xmi:id="_U5Bx5BDSEeWXQ6hMznMpyA" base_Element="_U5Bx4hDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U5Bx5RDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_U6z6kRDSEeWXQ6hMznMpyA" base_Element="_U6z6kBDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:Reference xmi:id="_U7QmgBDSEeWXQ6hMznMpyA" base_Element="_U7G1gBDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_U72cYRDSEeWXQ6hMznMpyA" base_Element="_U72cYBDSEeWXQ6hMznMpyA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_U72cYhDSEeWXQ6hMznMpyA" name="getEmail" method="_U8TIUBDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_U72cZRDSEeWXQ6hMznMpyA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_U72cYxDSEeWXQ6hMznMpyA" name="setEmail" method="_U8cSQRDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_U72cZBDSEeWXQ6hMznMpyA" name="email">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_U72cZhDSEeWXQ6hMznMpyA" base_Element="_U72cYhDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U72cZxDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_U72caBDSEeWXQ6hMznMpyA" base_Element="_U72cYxDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U72caRDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_U72caxDSEeWXQ6hMznMpyA" base_Element="_U72cahDSEeWXQ6hMznMpyA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_U8ANYBDSEeWXQ6hMznMpyA" name="getUrl" method="_U8cSQxDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_U8ANYxDSEeWXQ6hMznMpyA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_U8ANYRDSEeWXQ6hMznMpyA" name="setUrl" method="_U8cSRRDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_U8ANYhDSEeWXQ6hMznMpyA" name="url">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_U8ANZBDSEeWXQ6hMznMpyA" base_Element="_U8ANYBDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U8ANZRDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_U8ANZhDSEeWXQ6hMznMpyA" base_Element="_U8ANYRDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U8ANZxDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_U8ANaRDSEeWXQ6hMznMpyA" base_Element="_U8ANaBDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_U8ANaxDSEeWXQ6hMznMpyA" base_Element="_U8ANahDSEeWXQ6hMznMpyA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_U8ANbBDSEeWXQ6hMznMpyA" name="getEvaluation" method="_U8cSSxDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_U8ANbxDSEeWXQ6hMznMpyA" type="_U6z6kBDSEeWXQ6hMznMpyA" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_U8ANbRDSEeWXQ6hMznMpyA" name="setEvaluation" method="_U8cSTRDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_U8ANbhDSEeWXQ6hMznMpyA" name="evaluation" type="_U6z6kBDSEeWXQ6hMznMpyA"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_U8ANcBDSEeWXQ6hMznMpyA" base_Element="_U8ANbBDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U8ANcRDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_U8ANchDSEeWXQ6hMznMpyA" base_Element="_U8ANbRDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U8ANcxDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_U8JXUBDSEeWXQ6hMznMpyA" base_Element="_U8ANdBDSEeWXQ6hMznMpyA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_U8JXURDSEeWXQ6hMznMpyA" name="getEvaluationManager" method="_U8cSTxDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_U8JXVBDSEeWXQ6hMznMpyA" type="_U7G1gBDSEeWXQ6hMznMpyA" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_U8JXUhDSEeWXQ6hMznMpyA" name="setEvaluationManager" method="_U8cSURDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_U8JXUxDSEeWXQ6hMznMpyA" name="evaluationManager" type="_U7G1gBDSEeWXQ6hMznMpyA"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_U8JXVRDSEeWXQ6hMznMpyA" base_Element="_U8JXURDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U8JXVhDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_U8JXVxDSEeWXQ6hMznMpyA" base_Element="_U8JXUhDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U8JXWBDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_U8JXWhDSEeWXQ6hMznMpyA" base_Element="_U8JXWRDSEeWXQ6hMznMpyA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_U8JXXBDSEeWXQ6hMznMpyA" name="getEvaluationSender" method="_U8cSUxDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_U8JXXxDSEeWXQ6hMznMpyA" type="_U7QmgRDSEeWXQ6hMznMpyA" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_U8JXXRDSEeWXQ6hMznMpyA" name="setEvaluationSender" method="_U8cSVRDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_U8JXXhDSEeWXQ6hMznMpyA" name="evaluationSender" type="_U7QmgRDSEeWXQ6hMznMpyA"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_U8JXYBDSEeWXQ6hMznMpyA" base_Element="_U8JXXBDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U8JXYRDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_U8JXYhDSEeWXQ6hMznMpyA" base_Element="_U8JXXRDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_U8JXYxDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_U8TIUBDSEeWXQ6hMznMpyA" name="getEmail" specification="_U72cYhDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_U8cSQBDSEeWXQ6hMznMpyA" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.email;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_U8cSQRDSEeWXQ6hMznMpyA" name="setEmail" specification="_U72cYxDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_U8cSQhDSEeWXQ6hMznMpyA" name="email">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.email = email;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_U8cSQxDSEeWXQ6hMznMpyA" name="getUrl" specification="_U8ANYBDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_U8cSRBDSEeWXQ6hMznMpyA" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.url;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_U8cSRRDSEeWXQ6hMznMpyA" name="setUrl" specification="_U8ANYRDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_U8cSRhDSEeWXQ6hMznMpyA" name="url">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.url = url;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_U8cSSxDSEeWXQ6hMznMpyA" name="getEvaluation" specification="_U8ANbBDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_U8cSTBDSEeWXQ6hMznMpyA" type="_U6z6kBDSEeWXQ6hMznMpyA" direction="return"/>
+    <language>java</language>
+    <body>return this.evaluation;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_U8cSTRDSEeWXQ6hMznMpyA" name="setEvaluation" specification="_U8ANbRDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_U8cSThDSEeWXQ6hMznMpyA" name="evaluation" type="_U6z6kBDSEeWXQ6hMznMpyA"/>
+    <language>java</language>
+    <body>this.evaluation = evaluation;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_U8cSTxDSEeWXQ6hMznMpyA" name="getEvaluationManager" specification="_U8JXURDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_U8cSUBDSEeWXQ6hMznMpyA" type="_U7G1gBDSEeWXQ6hMznMpyA" direction="return"/>
+    <language>java</language>
+    <body>return this.evaluationManager;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_U8cSURDSEeWXQ6hMznMpyA" name="setEvaluationManager" specification="_U8JXUhDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_U8cSUhDSEeWXQ6hMznMpyA" name="evaluationManager" type="_U7G1gBDSEeWXQ6hMznMpyA"/>
+    <language>java</language>
+    <body>this.evaluationManager = evaluationManager;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_U8cSUxDSEeWXQ6hMznMpyA" name="getEvaluationSender" specification="_U8JXXBDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_U8cSVBDSEeWXQ6hMznMpyA" type="_U7QmgRDSEeWXQ6hMznMpyA" direction="return"/>
+    <language>java</language>
+    <body>return this.evaluationSender;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_U8cSVRDSEeWXQ6hMznMpyA" name="setEvaluationSender" specification="_U8JXXRDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_U8cSVhDSEeWXQ6hMznMpyA" name="evaluationSender" type="_U7QmgRDSEeWXQ6hMznMpyA"/>
+    <language>java</language>
+    <body>this.evaluationSender = evaluationSender;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_U8mDQhDSEeWXQ6hMznMpyA" base_Element="_U8mDQBDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:Reference xmi:id="_U8mDRRDSEeWXQ6hMznMpyA" base_Element="_U8mDQxDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:Reference xmi:id="_U8v0QBDSEeWXQ6hMznMpyA" base_Element="_U8mDRhDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hQihIRDSEeWXQ6hMznMpyA" base_Element="_hQihIBDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:Annotations xmi:id="_hQihIhDSEeWXQ6hMznMpyA" base_Element="_hQihIBDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_hQihIxDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hQihJRDSEeWXQ6hMznMpyA" base_Element="_hQihJBDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:Annotations xmi:id="_hQihJhDSEeWXQ6hMznMpyA" base_Element="_hQihJBDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_hQihJxDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hRI-EhDSEeWXQ6hMznMpyA" base_Element="_hRI-ERDSEeWXQ6hMznMpyA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_hRI-ExDSEeWXQ6hMznMpyA" name="getEvaluationConfiguration" method="_hRSIBBDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_hRI-FhDSEeWXQ6hMznMpyA" type="_U6z6khDSEeWXQ6hMznMpyA" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_hRI-FBDSEeWXQ6hMznMpyA" name="setEvaluationConfiguration" method="_hRSIBhDSEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_hRI-FRDSEeWXQ6hMznMpyA" name="evaluationConfiguration" type="_U6z6khDSEeWXQ6hMznMpyA"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_hRSIABDSEeWXQ6hMznMpyA" base_Element="_hRI-ExDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_hRSIARDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_hRSIAhDSEeWXQ6hMznMpyA" base_Element="_hRI-FBDSEeWXQ6hMznMpyA">
+    <annotations xmi:id="_hRSIAxDSEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_hRSIBBDSEeWXQ6hMznMpyA" name="getEvaluationConfiguration" specification="_hRI-ExDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_hRSIBRDSEeWXQ6hMznMpyA" type="_U6z6khDSEeWXQ6hMznMpyA" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.evaluationConfiguration;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_hRSIBhDSEeWXQ6hMznMpyA" name="setEvaluationConfiguration" specification="_hRI-FBDSEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_hRSIBxDSEeWXQ6hMznMpyA" name="evaluationConfiguration" type="_U6z6khDSEeWXQ6hMznMpyA"/>
+    <language>java</language>
+    <body>this.evaluationConfiguration = evaluationConfiguration;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_hRb5ABDSEeWXQ6hMznMpyA" base_Element="_hRSIChDSEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:Reference xmi:id="_2WzaIBDbEeWXQ6hMznMpyA" base_Element="_2WyMABDbEeWXQ6hMznMpyA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5RxWcBDbEeWXQ6hMznMpyA" base_Element="_5RwvYBDbEeWXQ6hMznMpyA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_5Rx9gBDbEeWXQ6hMznMpyA" name="getEvaluationStep" method="_5R1n4BDbEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_5RzLoBDbEeWXQ6hMznMpyA" type="_2WyMABDbEeWXQ6hMznMpyA" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_5RykkBDbEeWXQ6hMznMpyA" name="setEvaluationStep" method="_5R2O8RDbEeWXQ6hMznMpyA">
+      <ownedParameter xmi:id="_5RykkRDbEeWXQ6hMznMpyA" name="evaluationStep" type="_2WyMABDbEeWXQ6hMznMpyA"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_5R0ZwBDbEeWXQ6hMznMpyA" base_Element="_5Rx9gBDbEeWXQ6hMznMpyA">
+    <annotations xmi:id="_5R0ZwRDbEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5R1A0BDbEeWXQ6hMznMpyA" base_Element="_5RykkBDbEeWXQ6hMznMpyA">
+    <annotations xmi:id="_5R1A0RDbEeWXQ6hMznMpyA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_5R1n4BDbEeWXQ6hMznMpyA" name="getEvaluationStep" specification="_5Rx9gBDbEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_5R2O8BDbEeWXQ6hMznMpyA" type="_2WyMABDbEeWXQ6hMznMpyA" direction="return"/>
+    <language>java</language>
+    <body>return evaluationStep;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_5R2O8RDbEeWXQ6hMznMpyA" name="setEvaluationStep" specification="_5RykkBDbEeWXQ6hMznMpyA">
+    <ownedParameter xmi:id="_5R2O8hDbEeWXQ6hMznMpyA" name="evaluationStep" type="_2WyMABDbEeWXQ6hMznMpyA"/>
+    <language>java</language>
+    <body>this.evaluationStep = evaluationStep;&#xD;
+</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_5R4rMBDbEeWXQ6hMznMpyA" base_Element="_5R3dEBDbEeWXQ6hMznMpyA"/>
+</xmi:XMI>

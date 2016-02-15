@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_bR2osJtAEeSsXo4YXRqHkQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_EWylEL3EEeSBrKF8Yl_Eqw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_yXq3oL3EEeSBrKF8Yl_Eqw" elementId="de.uks.ef.eclipse.evaluation.part" label="Evaluation View" iconURI="" category="Evaluation" closeable="true" contributionURI="bundleclass://de.uks.ef.eclipse.core.ui/de.uks.ef.eclipse.core.ui.parts.EvaluationViewPart">
+      <tags>View</tags>
+    </elements>
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_8_Xm8KikEeWabYeSOfgTEw" elementId="de.uks.ef.eclipse.evaluation.logview" label="Evaluation Log View" iconURI="" category="Evaluation" closeable="true" contributionURI="bundleclass://de.uks.ef.eclipse.core.ui/de.uks.ef.eclipse.core.ui.parts.EvaluationLogView">
+      <tags>View</tags>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_aRheIOzDEeSkbf3x5gO4sQ" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_j6VLcOzDEeSkbf3x5gO4sQ" elementId="de.uks.ef.menu.menucontribution.evaluations" positionInParent="before=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_o0AQIOzDEeSkbf3x5gO4sQ" elementId="de.uks.ef.menu.evaluations" label="Evaluations">
+        <children xsi:type="menu:DynamicMenuContribution" xmi:id="_hrjNkO2xEeSyaJezhPfMvA" elementId="de.uks.ef.menu.evaluations.dynamic" contributionURI="bundleclass://de.uks.ef.eclipse.core.ui/de.uks.ef.eclipse.core.ui.menus.EvaluationCreationItem"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_WmV3AASXEeWJacWqamBWBQ" elementId="de.uks.ef.eclipse.core.ui.menuseparator.0"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_kejTUA2zEeWvXpqWJRG-2A" elementId="de.uks.ef.menu.evaluations.openReportView" label="Open Report/Analysis View" contributionURI="bundleclass://de.uks.ef.eclipse.core.ui/de.uks.ef.eclipse.core.ui.handler.OpenReportViewHandler"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_k5Mn8A2zEeWvXpqWJRG-2A" elementId="de.uks.ef.menu.evaluations.openTrackingView" label="Open Tracking View" contributionURI="bundleclass://de.uks.ef.eclipse.core.ui/de.uks.ef.eclipse.core.ui.handler.OpenTrackingViewHandler"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_2Kf6sOzEEeSkbf3x5gO4sQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_2X0lAOzEEeSkbf3x5gO4sQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application"/>
+</fragment:ModelFragments>

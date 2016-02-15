@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ekE5UGXhEeWD7dtjtQ_HLQ" name="de_uks_evaluation_framework_report">
+    <eAnnotations xmi:id="_euc9UGXhEeWD7dtjtQ_HLQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_euc9UWXhEeWD7dtjtQ_HLQ" source="codegen">
+        <details xmi:id="_euc9UmXhEeWD7dtjtQ_HLQ" key="codegenDirectory" value="/de.uks.ef.core/src/main/java/"/>
+        <details xmi:id="_fhI-gGXhEeWD7dtjtQ_HLQ" key="AssociatedSourceCode" value="/de.uks.ef.core/src/main/java/de/uks/ef/core/model/ReportModul.java;3082577272/1;/de.uks.ef.core/src/main/java/de/uks/ef/core/model/Report.java;3360756825/1;/de.uks.ef.core/src/main/java/de/uks/ef/core/model/TrackingModul.java;1289982429/1;/de.uks.ef.core/src/main/java/de/uks/ef/core/model/TrackingEvent.java;940425719/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_fewY7GXhEeWD7dtjtQ_HLQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_fewY7WXhEeWD7dtjtQ_HLQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_fewY7mXhEeWD7dtjtQ_HLQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_fewY72XhEeWD7dtjtQ_HLQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_fewY8GXhEeWD7dtjtQ_HLQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_fewY8WXhEeWD7dtjtQ_HLQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_fewY8mXhEeWD7dtjtQ_HLQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_fe6J4GXhEeWD7dtjtQ_HLQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_fe6J4WXhEeWD7dtjtQ_HLQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_fewY4GXhEeWD7dtjtQ_HLQ" name="de">
+      <packagedElement xmi:type="uml:Package" xmi:id="_fewY4WXhEeWD7dtjtQ_HLQ" name="uks">
+        <packagedElement xmi:type="uml:Package" xmi:id="_fewY4mXhEeWD7dtjtQ_HLQ" name="ef">
+          <packagedElement xmi:type="uml:Package" xmi:id="_fewY42XhEeWD7dtjtQ_HLQ" name="core">
+            <packagedElement xmi:type="uml:Package" xmi:id="_fewY5mXhEeWD7dtjtQ_HLQ" name="model">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_fewY52XhEeWD7dtjtQ_HLQ" name="ReportModul">
+                <eAnnotations xmi:id="_fewY6GXhEeWD7dtjtQ_HLQ" source="http://ns.yatta.de/umllab">
+                  <contents xmi:type="ecore:EAnnotation" xmi:id="_fewY6WXhEeWD7dtjtQ_HLQ" source="codegen">
+                    <details xmi:id="_fewY6mXhEeWD7dtjtQ_HLQ" key="codegenDirectory" value="/de.uks.ef.core/src/main/java"/>
+                  </contents>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_fewY62XhEeWD7dtjtQ_HLQ" name="trackingModul" type="_ffDT0mXhEeWD7dtjtQ_HLQ" association="_ffDT22XhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fe6J4mXhEeWD7dtjtQ_HLQ"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_fe6J42XhEeWD7dtjtQ_HLQ" name="report" type="_ffDT1GXhEeWD7dtjtQ_HLQ" association="_ffDT3mXhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fe6J5GXhEeWD7dtjtQ_HLQ"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fe6J5WXhEeWD7dtjtQ_HLQ" value="*"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_fe6J5mXhEeWD7dtjtQ_HLQ" name="trackingEvents" type="_ffDT1mXhEeWD7dtjtQ_HLQ" association="_ffDT4WXhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fe6J52XhEeWD7dtjtQ_HLQ"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fe6J6GXhEeWD7dtjtQ_HLQ" value="*"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_fe6J6WXhEeWD7dtjtQ_HLQ" name="generateReports" isAbstract="true">
+                  <ownedParameter xmi:id="_fe6J6mXhEeWD7dtjtQ_HLQ" type="_ffDT1GXhEeWD7dtjtQ_HLQ" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fe6J62XhEeWD7dtjtQ_HLQ" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_ffDT0mXhEeWD7dtjtQ_HLQ" name="TrackingModul">
+                <eAnnotations xmi:id="_mxtCEGXhEeWD7dtjtQ_HLQ" source="http://ns.yatta.de/umllab">
+                  <contents xmi:type="ecore:EAnnotation" xmi:id="_mxtCEWXhEeWD7dtjtQ_HLQ" source="codegen">
+                    <details xmi:id="_mxtCEmXhEeWD7dtjtQ_HLQ" key="codegenDirectory" value="/de.uks.ef.core/src/main/java"/>
+                  </contents>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_ffDT2GXhEeWD7dtjtQ_HLQ" name="reportModul" type="_fewY52XhEeWD7dtjtQ_HLQ" association="_ffDT22XhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ffDT2WXhEeWD7dtjtQ_HLQ"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ffDT2mXhEeWD7dtjtQ_HLQ" value="*"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_mxtCE2XhEeWD7dtjtQ_HLQ" name="trackingManager" type="_mx_9AGXhEeWD7dtjtQ_HLQ" association="_mx_9BGXhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mxtCFGXhEeWD7dtjtQ_HLQ"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_mxtCFWXhEeWD7dtjtQ_HLQ" name="trackingEvent" type="_ffDT1mXhEeWD7dtjtQ_HLQ" association="_mx_9B2XhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mxtCFmXhEeWD7dtjtQ_HLQ"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mxtCF2XhEeWD7dtjtQ_HLQ" value="*"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_mxtCGGXhEeWD7dtjtQ_HLQ" name="started" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_mxtCGWXhEeWD7dtjtQ_HLQ" name="startTracking"/>
+                <ownedOperation xmi:id="_mxtCGmXhEeWD7dtjtQ_HLQ" name="stopTracking"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_ffDT1GXhEeWD7dtjtQ_HLQ" name="Report">
+                <eAnnotations xmi:id="_f-b-gGXhEeWD7dtjtQ_HLQ" source="http://ns.yatta.de/umllab">
+                  <contents xmi:type="ecore:EAnnotation" xmi:id="_f-b-gWXhEeWD7dtjtQ_HLQ" source="codegen">
+                    <details xmi:id="_f-b-gmXhEeWD7dtjtQ_HLQ" key="codegenDirectory" value="/de.uks.ef.core/src/main/java"/>
+                  </contents>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_ffDT3GXhEeWD7dtjtQ_HLQ" name="reportModul" type="_fewY52XhEeWD7dtjtQ_HLQ" association="_ffDT3mXhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ffDT3WXhEeWD7dtjtQ_HLQ"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_ffDT1mXhEeWD7dtjtQ_HLQ" name="TrackingEvent">
+                <eAnnotations xmi:id="_oOPRgGXhEeWD7dtjtQ_HLQ" source="http://ns.yatta.de/umllab">
+                  <contents xmi:type="ecore:EAnnotation" xmi:id="_oOPRgWXhEeWD7dtjtQ_HLQ" source="codegen">
+                    <details xmi:id="_oOPRgmXhEeWD7dtjtQ_HLQ" key="codegenDirectory" value="/de.uks.ef.core/src/main/java"/>
+                  </contents>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_ffDT32XhEeWD7dtjtQ_HLQ" name="reportModul" type="_fewY52XhEeWD7dtjtQ_HLQ" association="_ffDT4WXhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ffDT4GXhEeWD7dtjtQ_HLQ"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_mx_9BWXhEeWD7dtjtQ_HLQ" name="trackingModul" type="_ffDT0mXhEeWD7dtjtQ_HLQ" association="_mx_9B2XhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mx_9BmXhEeWD7dtjtQ_HLQ"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_oOPRg2XhEeWD7dtjtQ_HLQ" name="encoding" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_oOPRhGXhEeWD7dtjtQ_HLQ" name="trackingManager" type="_mx_9AGXhEeWD7dtjtQ_HLQ" association="_oOizg2XhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oOPRhWXhEeWD7dtjtQ_HLQ"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_ffDT22XhEeWD7dtjtQ_HLQ" name="" memberEnd="_fewY62XhEeWD7dtjtQ_HLQ _ffDT2GXhEeWD7dtjtQ_HLQ"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_ffDT3mXhEeWD7dtjtQ_HLQ" name="" memberEnd="_ffDT3GXhEeWD7dtjtQ_HLQ _fe6J42XhEeWD7dtjtQ_HLQ"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_ffDT4WXhEeWD7dtjtQ_HLQ" name="" memberEnd="_ffDT32XhEeWD7dtjtQ_HLQ _fe6J5mXhEeWD7dtjtQ_HLQ"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_mx_9AGXhEeWD7dtjtQ_HLQ" name="TrackingManager">
+                <ownedAttribute xmi:id="_mx_9AmXhEeWD7dtjtQ_HLQ" name="trackingModul" type="_ffDT0mXhEeWD7dtjtQ_HLQ" association="_mx_9BGXhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mx_9A2XhEeWD7dtjtQ_HLQ"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_oOizgGXhEeWD7dtjtQ_HLQ" name="trackingEvent" type="_ffDT1mXhEeWD7dtjtQ_HLQ" association="_oOizg2XhEeWD7dtjtQ_HLQ">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oOizgWXhEeWD7dtjtQ_HLQ"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oOizgmXhEeWD7dtjtQ_HLQ" value="*"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_mx_9BGXhEeWD7dtjtQ_HLQ" name="" memberEnd="_mxtCE2XhEeWD7dtjtQ_HLQ _mx_9AmXhEeWD7dtjtQ_HLQ"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_mx_9B2XhEeWD7dtjtQ_HLQ" name="" memberEnd="_mx_9BWXhEeWD7dtjtQ_HLQ _mxtCFWXhEeWD7dtjtQ_HLQ"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_oOizg2XhEeWD7dtjtQ_HLQ" name="" memberEnd="_oOPRhGXhEeWD7dtjtQ_HLQ _oOizgGXhEeWD7dtjtQ_HLQ"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_fewY5GXhEeWD7dtjtQ_HLQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_fewY5WXhEeWD7dtjtQ_HLQ" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ffDT0GXhEeWD7dtjtQ_HLQ" name="Set"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_euc9U2XhEeWD7dtjtQ_HLQ">
+      <eAnnotations xmi:id="_euc9VGXhEeWD7dtjtQ_HLQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_euc9VWXhEeWD7dtjtQ_HLQ" base_Package="_ekE5UGXhEeWD7dtjtQ_HLQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_ffDT0WXhEeWD7dtjtQ_HLQ" base_Element="_ffDT0GXhEeWD7dtjtQ_HLQ"/>
+  <UMLLabProfile:Reference xmi:id="_mx_9AWXhEeWD7dtjtQ_HLQ" base_Element="_mx_9AGXhEeWD7dtjtQ_HLQ"/>
+  <UMLLabProfile:Patch xmi:id="_onk-kGXhEeWD7dtjtQ_HLQ" base_Element="_ffDT1mXhEeWD7dtjtQ_HLQ" patchText="@@ -65,302 +65,8 @@&#xA; %0A%7B%0D%0A&#xA;-/**%0D%0A    * %3Cpre%3E%0D%0A    *           0..*     0..1%0D%0A    * TrackingEvent ------------------------- ReportModul%0D%0A    *           trackingEvents        &amp;lt;       reportModul%0D%0A    * %3C/pre%3E%0D%0A    */%0D%0A   public void setReportModul(ReportModul value);%0D%0A   %0D%0A   public ReportModul getReportModul();%0D%0A   %0D%0A&#xA;    p&#xA;" conflicting="false"/>
+</xmi:XMI>

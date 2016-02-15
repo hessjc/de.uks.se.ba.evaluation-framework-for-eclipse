@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         name="de.uks.ef.HelloWorldEvaluation"
+         point="de.uks.ef.EvaluationManager">
+      <EvaluationConfiguration
+            email="info@cs.uni-kassel.de"
+            optionalIdentity="true"
+            url="http://seblog.cs.uni-kassel.de/">
+         <Evaluation
+               description="The HelloUniverseEvaluation is a predefined example-project compilation for the bachelor thesis of the evaluation framework in summer term 2015.;The user has to find an optimized solution to resolve described tasks by following the step guideline - remember implementing meaningful class, package and attribute name declarations. After submitting last step all collected data can be evaluated and analyzed by specified report usage."
+               name="HelloUniverseEvaluation">
+            <EvaluationStep
+                  description="In the first step of the HelloUniverseEvaluation several projects will be automatically imported to the eclipse specific workspace directory. These imported projects will show unhandled errors and warnings.;The user should anticipate model and project structures to detect wrong-compiled classes and fix the displayed errors above by finding an optimized solution to handle it.;After solving all project failures a predefined JUnit test should be successfully validated by clicking the validation button."
+                  name="Error handling (anticipation, detection and resolution)">
+               <Step
+                     description="At the beginning necessary HelloUniverse projects will be imported. The user should set up the correct inclusion of build path dependencies (including HelloUniverseModel to HelloUniverse)."
+                     name="Specify build path">
+               </Step>
+               <Step
+                     description="Now the user should implement the necessary Planet interface (fe. Earth class is implementing Planet).;Remember the usage of interfaces (explicitly the usage of field declarations in an interface)."
+                     name="Planet interface">
+               </Step>
+               <Step
+                     description="At the end of this step user should successfully implement Earth class - sayHello method should be completely implemented by writing out the String &quot;Hello, CLASSNAME!&quot;;;e.g. System.println(&quot;Hello, Earth!&quot;));; on calling its method body.;If all specified sub steps in this step will be correctly implemented, all JUnit tests should successfully parsed as succeeded (by clicking the validation button below)."
+                     name="Implementation of the sayHello method">
+               </Step>
+               <EvaluationStepConfiguration>
+                  <EvaluationStepValidations>
+                     <EvaluationStepValidationJUnit
+                           name="HelloUniverseTest.zip">
+                     </EvaluationStepValidationJUnit>
+                  </EvaluationStepValidations>
+                  <EvaluationStepImports>
+                     <EvaluationStepImportProject
+                           imported="false"
+                           name="HelloUniverse.zip">
+                     </EvaluationStepImportProject>
+                  </EvaluationStepImports>
+               </EvaluationStepConfiguration>
+            </EvaluationStep>
+            <EvaluationStep
+                  description="In this step the user should improve the HelloUniverse functionality.; First of all it is necessary that UML Lab of Yatta Solutions will be installed. Then it should be created a new Planet class (implementing from Planet class) via the UML Lab class diagram builder."
+                  name="Improved HelloUniverse functionality">
+               <Step
+                     description="	As soon as recommended the first step will include the installation of the Eclipse UML Lab Modeling IDE.;If support is needed go to official website (http://www.uml-lab.com/de/uml-lab/tutorials/)."
+                     name="Install UML Lab">
+               </Step>
+               <Step
+                     description="The user should create a new Planet class (e.g. with name &quot;Mars&quot;) implementing Planet interface by using the UML Lab Model Creator. Furthermore the sayHello method should be implemented in code like in previous step with the out printing String (e.g. &quot;Hello, Mars!&quot;)."
+                     name="Finding your own &quot;New Planet&quot;">
+               </Step>
+               <Step
+                     description="	In addition to last sub step, the user should include all other existing model classes to UML Lab File, too."
+                     name="Improving your &quot;New Planet&quot;">
+               </Step>
+               <Step
+                     description="	Validate current running step with the validation button. The JUnit validation should be parsed successfully, if not the user should retry last documented sub steps."
+                     name="Validation">
+               </Step>
+               <EvaluationStepConfiguration>
+                  <EvaluationStepImports></EvaluationStepImports>
+                  <EvaluationStepValidations>
+                     <EvaluationStepValidationJUnit
+                           name="HelloMoonTest.zip">
+                     </EvaluationStepValidationJUnit>
+                  </EvaluationStepValidations>
+               </EvaluationStepConfiguration>
+            </EvaluationStep>
+            <EvaluationStep
+                  description="The last step of HelloUniverse evaluation is the &quot;debugging step&quot;: After all previous steps are hopefully solved and all validations are marked as succeeded, the user should debug the creation mechanism of his created classes by using breakpoints. "
+                  name="Finding the debugging way">
+               <Step
+                     description="In this step the HelloUniverse Main class should be debugged with the environmental variable startup = 1. The application will throw an unhandled exception! Try to catch the throwing exception in debug mode – what is the reason throwing this exception?"
+                     name="Debug HelloUniverse Main class">
+               </Step>
+               <Step
+                     description="For the evaluation usage the user should set up an individual breakpoint in main class and debug current selected HelloUniverse project (also switch to Debug Perspective). After, the user can add or remove other breakpoints to handle incoming tracking events. "
+                     name="Add breakpoint in main class">
+               </Step>
+            </EvaluationStep>
+         </Evaluation>
+      </EvaluationConfiguration>
+   </extension>
+   <extension
+         point="de.uks.ef.TrackingManager">
+      <TrackingModul
+            class="de.uks.ef.eclipse.tracking.breakpointtrackingmodul.core.BreakpointTrackingModul">
+      </TrackingModul>
+      <TrackingModul
+            class="de.uks.ef.eclipse.tracking.commandtrackingmodul.core.CommandTrackingModul">
+      </TrackingModul>
+      <TrackingModul
+            class="de.uks.ef.eclipse.tracking.parttrackingmodul.core.PartTrackingModul">
+      </TrackingModul>
+   </extension>
+</plugin>

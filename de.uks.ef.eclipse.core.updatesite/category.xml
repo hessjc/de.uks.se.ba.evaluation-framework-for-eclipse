@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/de.uks.ef.eclipse.core_0.0.1.qualifier.jar" id="de.uks.ef.eclipse.core" version="0.0.1.qualifier">
+      <category name="evaluation.core"/>
+   </feature>
+   <feature url="features/de.uks.ef.eclipse.tracking.modules_0.0.1.qualifier.jar" id="de.uks.ef.eclipse.tracking.modules" version="0.0.1.qualifier">
+      <category name="evaluation.trackingmodules"/>
+   </feature>
+   <category-def name="evaluation.core" label="Evaluation4Eclipse - Core"/>
+   <category-def name="evaluation.trackingmodules" label="Evaluation4Eclipse - Tracking Modules"/>
+</site>

@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_5qJR0OnZEeS2qvVFulTROw">
+  <modelElement href="evaluation-framework-for-eclipse.uml#_5otucOnZEeS2qvVFulTROw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_UmkKEOncEeS2qvVFulTROw" sourceAnchor="0.0,57.0" targetAnchor="132.0,53.0">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_UmgfsOncEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_UmkKEencEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_Cmdvw-neEeS2qvVFulTROw" sourceX="-30" targetX="115" targetY="68"/>
+    <bendpoints xmi:id="_CmdvxOneEeS2qvVFulTROw" sourceX="-30" sourceY="-68" targetX="115"/>
+    <nameVisual xmi:id="_UmkKEuncEeS2qvVFulTROw" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_Wd_lwOncEeS2qvVFulTROw" sourceAnchor="0.0,39.0" targetAnchor="132.0,53.0">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_Wd-XoOncEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_Wd_lwencEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_CmdvweneEeS2qvVFulTROw" sourceX="-59" targetX="115" targetY="-38"/>
+    <bendpoints xmi:id="_CmdvwuneEeS2qvVFulTROw" sourceX="-59" sourceY="38" targetX="115"/>
+    <nameVisual xmi:id="_Wd_lwuncEeS2qvVFulTROw" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_1zfB8OncEeS2qvVFulTROw" sourceAnchor="148.0,36.0" targetAnchor="0.0,8.0">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_1zea4OncEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_1zfB8encEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_1zfB8uncEeS2qvVFulTROw" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_eyGUgOndEeS2qvVFulTROw" sourceAnchor="62.0,0.0" targetAnchor="82.0,85.0">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_eyFGYOndEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_eyGUgendEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_Cmdvx-neEeS2qvVFulTROw" sourceY="-23" targetX="-111" targetY="22"/>
+    <bendpoints xmi:id="_CmdvyOneEeS2qvVFulTROw" sourceX="111" sourceY="-23" targetY="22"/>
+    <nameVisual xmi:id="_eyGUgundEeS2qvVFulTROw" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_fFLokOndEeS2qvVFulTROw" sourceAnchor="64.0,0.0" targetAnchor="82.0,85.0">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_fFKacOndEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_fFLokendEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_CmdvxeneEeS2qvVFulTROw" sourceY="-25" targetX="116" targetY="22"/>
+    <bendpoints xmi:id="_CmdvxuneEeS2qvVFulTROw" sourceX="-116" sourceY="-25" targetY="22"/>
+    <nameVisual xmi:id="_fFLokundEeS2qvVFulTROw" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_2MHu8endEeS2qvVFulTROw" sourceAnchor="56.0,0.0" targetAnchor="84.0,68.0">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_2MHu8OndEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_2MHu8undEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_2MHu8-ndEeS2qvVFulTROw" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_2ZYH0endEeS2qvVFulTROw" sourceAnchor="54.0,0.0" targetAnchor="84.0,68.0">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_2ZYH0OndEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_2ZYH0undEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_CmdvyeneEeS2qvVFulTROw" sourceY="-30" targetX="164" targetY="34"/>
+    <bendpoints xmi:id="_CmdvyuneEeS2qvVFulTROw" sourceX="-164" sourceY="-30" targetY="34"/>
+    <nameVisual xmi:id="_2ZYH0-ndEeS2qvVFulTROw" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_-msukendEeS2qvVFulTROw" sourceAnchor="37.0,0.0" targetAnchor="50.0,79.0">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_-msukOndEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_-msukundEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_-msuk-ndEeS2qvVFulTROw" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_-winEendEeS2qvVFulTROw" sourceAnchor="42.0,72.0" targetAnchor="50.0,0.0">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_-winEOndEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_-winEundEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_-winE-ndEeS2qvVFulTROw" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_0D-EwenfEeS2qvVFulTROw" sourceAnchor="108.0,7.0" targetAnchor="0.0,27.0" dashed="true" superClass="_tmm_wenfEeS2qvVFulTROw" subClass="_v3zmUenfEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_0D-EwOnfEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_0D-EwunfEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9lz_QOpfEeS2qvVFulTROw" sourceX="67" targetX="-21" targetY="-48"/>
+    <bendpoints xmi:id="_9lz_QepfEeS2qvVFulTROw" sourceX="67" sourceY="48" targetX="-21"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1Uss1-nfEeS2qvVFulTROw" sourceAnchor="60.0,0.0" targetAnchor="69.0,118.0" target="_gaqi4enfEeS2qvVFulTROw" source="_KLDGEenfEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_1Uss0OnfEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_1Uss2OnfEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_1Uss2enfEeS2qvVFulTROw" text="">
+      <visualProperties xmi:id="_1XFScenfEeS2qvVFulTROw" position="-18.0,-34.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1Uss2unfEeS2qvVFulTROw" aggregationKind="NONE" name="evaluationManager" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_1Uss0enfEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_1XFScOnfEeS2qvVFulTROw" position="-119.0,-71.0"/>
+      <visibility xmi:id="_1Uss2-nfEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_1Uss3OnfEeS2qvVFulTROw" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1Uss3enfEeS2qvVFulTROw" aggregationKind="NONE" name="evaluation" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_1Uss1OnfEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_1XFScunfEeS2qvVFulTROw" position="2.0,25.0"/>
+      <visibility xmi:id="_1Uss3unfEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_1Uss3-nfEeS2qvVFulTROw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_19BRFenfEeS2qvVFulTROw" sourceAnchor="0.0,33.0" targetAnchor="165.0,27.0" target="_tmm_wenfEeS2qvVFulTROw" source="_gaqi4enfEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_187KcOnfEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_19BRFunfEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_19BRF-nfEeS2qvVFulTROw" text="">
+      <visualProperties xmi:id="_1-i7EunfEeS2qvVFulTROw" position="-40.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_19BRGOnfEeS2qvVFulTROw" aggregationKind="NONE" name="evaluation" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_187KcenfEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_1-i7EenfEeS2qvVFulTROw" position="-94.0,2.0"/>
+      <visibility xmi:id="_19BRGenfEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_19BRGunfEeS2qvVFulTROw" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_19BRG-nfEeS2qvVFulTROw" aggregationKind="NONE" name="evaluationStopper" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_19BREunfEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_1-i7E-nfEeS2qvVFulTROw" position="10.0,-46.99999999999997"/>
+      <visibility xmi:id="_19BRHOnfEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_19BRHenfEeS2qvVFulTROw" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_G8seQengEeS2qvVFulTROw" sourceAnchor="169.0,34.0" targetAnchor="0.0,27.0" dashed="true" superClass="_tmm_wenfEeS2qvVFulTROw" subClass="_-2jdkenfEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_G8seQOngEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_G8seQungEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9l9JMOpfEeS2qvVFulTROw" sourceX="21" targetX="-21" targetY="70"/>
+    <bendpoints xmi:id="_9l9JMepfEeS2qvVFulTROw" sourceX="21" sourceY="-70" targetX="-21"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fZhZh-ngEeS2qvVFulTROw" sourceAnchor="134.0,44.0" targetAnchor="0.0,41.0" target="_YzYzAengEeS2qvVFulTROw" source="_KLDGEenfEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_fZhZgOngEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_fZhZiOngEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_fZhZiengEeS2qvVFulTROw" text="">
+      <visualProperties xmi:id="_fcGMZengEeS2qvVFulTROw" position="-1.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_fZhZiungEeS2qvVFulTROw" aggregationKind="NONE" name="evaluationManager" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_fZhZgengEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_fcGMZOngEeS2qvVFulTROw" position="1.0,41.0"/>
+      <visibility xmi:id="_fZhZi-ngEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_fZhZjOngEeS2qvVFulTROw" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_fZhZjengEeS2qvVFulTROw" aggregationKind="NONE" name="trackingManager" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_fZhZhOngEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_fcGMZungEeS2qvVFulTROw" position="-116.0,-47.0"/>
+      <visibility xmi:id="_fZhZjungEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_fZhZj-ngEeS2qvVFulTROw" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gBn7UOngEeS2qvVFulTROw" sourceAnchor="152.0,39.0" targetAnchor="0.0,39.0" target="_bIwH4engEeS2qvVFulTROw" source="_YzYzAengEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_gBmtMOngEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_gBn7UengEeS2qvVFulTROw" position="1029.0,397.0"/>
+    <nameVisual xmi:id="_gBn7UungEeS2qvVFulTROw" text="">
+      <visualProperties xmi:id="_gDRhJengEeS2qvVFulTROw" position="-6.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gBn7U-ngEeS2qvVFulTROw" aggregationKind="NONE" name="trackingManager" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_gBmtMengEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_gDRhJOngEeS2qvVFulTROw" position="1.0,41.0"/>
+      <visibility xmi:id="_gBn7VOngEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_gBn7VengEeS2qvVFulTROw" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gBn7VungEeS2qvVFulTROw" aggregationKind="NONE" name="reportManager" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_gBmtNOngEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_gDRhJungEeS2qvVFulTROw" position="-104.0,-47.0"/>
+      <visibility xmi:id="_gBn7V-ngEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_gBn7WOngEeS2qvVFulTROw" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mmG8B-ngEeS2qvVFulTROw" sourceAnchor="78.0,83.0" targetAnchor="48.0,0.0" target="_kyKSIengEeS2qvVFulTROw" source="_YzYzAengEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_mmG8AOngEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_mmG8COngEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_mmG8CengEeS2qvVFulTROw" text="">
+      <visualProperties xmi:id="_moru5engEeS2qvVFulTROw" position="2.0,-29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mmG8CungEeS2qvVFulTROw" aggregationKind="NONE" name="trackingManager" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_mmG8AengEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_moru5OngEeS2qvVFulTROw" position="-107.0,46.0"/>
+      <visibility xmi:id="_mmG8C-ngEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_mmG8DOngEeS2qvVFulTROw" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mmG8DengEeS2qvVFulTROw" aggregationKind="NONE" name="trackingModul" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_mmG8BOngEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_moru5ungEeS2qvVFulTROw" position="2.0,-69.0"/>
+      <visibility xmi:id="_mmG8DungEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_mmG8D-ngEeS2qvVFulTROw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_HHUkcenhEeS2qvVFulTROw" sourceAnchor="51.0,0.0" targetAnchor="48.0,44.0" dashed="true" superClass="_kyKSIengEeS2qvVFulTROw" subClass="_56ORAengEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_HHUkcOnhEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_HHUkcunhEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9lz_QupfEeS2qvVFulTROw" sourceY="-30" targetX="-93" targetY="30"/>
+    <bendpoints xmi:id="_9lz_Q-pfEeS2qvVFulTROw" sourceX="93" sourceY="-30" targetY="30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_HyFYsOnhEeS2qvVFulTROw" sourceAnchor="63.0,0.0" targetAnchor="48.0,44.0" dashed="true" superClass="_kyKSIengEeS2qvVFulTROw" subClass="_7xU8kengEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_Hx_SEOnhEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_HyFYsenhEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9lz_ROpfEeS2qvVFulTROw" sourceY="-33" targetX="89" targetY="30"/>
+    <bendpoints xmi:id="_9lz_RepfEeS2qvVFulTROw" sourceX="-89" sourceY="-33" targetY="30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Sr9FR-nhEeS2qvVFulTROw" sourceAnchor="127.0,24.0" targetAnchor="0.0,22.0" target="_kyKSIengEeS2qvVFulTROw" source="_PZRMgenhEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_Sr9FQOnhEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_Sr9FSOnhEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_Sr9FSenhEeS2qvVFulTROw" text="">
+      <visualProperties xmi:id="_Suh4KenhEeS2qvVFulTROw" position="-49.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Sr9FSunhEeS2qvVFulTROw" aggregationKind="NONE" name="trackingEvent" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_Sr9FQenhEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_Suh4KOnhEeS2qvVFulTROw" position="32.0,2.0"/>
+      <visibility xmi:id="_Sr9FS-nhEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_Sr9FTOnhEeS2qvVFulTROw" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Sr9FTenhEeS2qvVFulTROw" aggregationKind="NONE" name="trackingModul" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_Sr9FROnhEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_Suh4KunhEeS2qvVFulTROw" position="-108.0,-47.0"/>
+      <visibility xmi:id="_Sr9FTunhEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_Sr9FT-nhEeS2qvVFulTROw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qjp6MenhEeS2qvVFulTROw" sourceAnchor="127.0,49.0" targetAnchor="0.0,23.0" dashed="true" superClass="_PZRMgenhEeS2qvVFulTROw" subClass="_h-mI4enhEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_qjp6MOnhEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_qjp6MunhEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9l9JNOpfEeS2qvVFulTROw" sourceX="30" targetX="-63" targetY="98"/>
+    <bendpoints xmi:id="_9l9JNepfEeS2qvVFulTROw" sourceX="30" sourceY="-98" targetX="-63"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qvAOkenhEeS2qvVFulTROw" sourceAnchor="127.0,18.0" targetAnchor="0.0,23.0" dashed="true" superClass="_PZRMgenhEeS2qvVFulTROw" subClass="_Uww1oenhEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_qvAOkOnhEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_qvAOkunhEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9l9JMupfEeS2qvVFulTROw" sourceX="32" targetX="-63" targetY="-38"/>
+    <bendpoints xmi:id="_9l9JM-pfEeS2qvVFulTROw" sourceX="32" sourceY="38" targetX="-63"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OqAdV-niEeS2qvVFulTROw" sourceAnchor="95.0,0.0" targetAnchor="89.0,74.0" target="_MHjuseniEeS2qvVFulTROw" source="_bIwH4engEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_OqAdUOniEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_OqAdWOniEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_OqAdWeniEeS2qvVFulTROw" text="">
+      <visualProperties xmi:id="_OsxdceniEeS2qvVFulTROw" position="2.0,-35.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OqAdWuniEeS2qvVFulTROw" aggregationKind="NONE" name="reportManager" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_OqAdUeniEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_OsxdcOniEeS2qvVFulTROw" position="2.0,-63.0"/>
+      <visibility xmi:id="_OqAdW-niEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_OqAdXOniEeS2qvVFulTROw" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OqAdXeniEeS2qvVFulTROw" aggregationKind="NONE" name="reportGenerator" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_OqAdVOniEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_OsxdcuniEeS2qvVFulTROw" position="-101.0,18.0"/>
+      <visibility xmi:id="_OqAdXuniEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_OqAdX-niEeS2qvVFulTROw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_exxLEOniEeS2qvVFulTROw" sourceAnchor="67.0,55.0" targetAnchor="89.0,0.0" dashed="true" superClass="_MHjuseniEeS2qvVFulTROw" subClass="_GRYlgeniEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_exrEcOniEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_exxLEeniEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9l9JOOpfEeS2qvVFulTROw" sourceY="31" targetX="-111" targetY="-25"/>
+    <bendpoints xmi:id="_9l9JOepfEeS2qvVFulTROw" sourceX="111" sourceY="31" targetY="-25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_e-1WseniEeS2qvVFulTROw" sourceAnchor="39.0,63.0" targetAnchor="89.0,0.0" dashed="true" superClass="_MHjuseniEeS2qvVFulTROw" subClass="_Cm0YQeniEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_e-1WsOniEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_e-1WsuniEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9l9JNupfEeS2qvVFulTROw" sourceY="25" targetX="75" targetY="-25"/>
+    <bendpoints xmi:id="_9l9JN-pfEeS2qvVFulTROw" sourceX="-75" sourceY="25" targetY="-25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DH4dgOpcEeS2qvVFulTROw" sourceAnchor="76.0,0.0" targetAnchor="0.0,84.0" target="_gaqi4enfEeS2qvVFulTROw" source="_z_Kx8OpbEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_DH0zIOpcEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_DH4dgepcEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9l9JOupfEeS2qvVFulTROw" sourceY="-140" targetX="-155"/>
+    <nameVisual xmi:id="_DH4dgupcEeS2qvVFulTROw" text="">
+      <visualProperties xmi:id="_DLB4IOpcEeS2qvVFulTROw" position="41.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_DH4dg-pcEeS2qvVFulTROw" aggregationKind="NONE" name="evaluationStep" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_DH0zIepcEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_DLBREOpcEeS2qvVFulTROw" position="2.0,-70.0"/>
+      <visibility xmi:id="_DH4dhOpcEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_DH4dhepcEeS2qvVFulTROw" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DH4dhupcEeS2qvVFulTROw" aggregationKind="NONE" name="evaluation" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_DH1aMupcEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_DLB4IepcEeS2qvVFulTROw" position="-99.0,2.0"/>
+      <visibility xmi:id="_DH4dh-pcEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_DH4diOpcEeS2qvVFulTROw" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NDkqkOpcEeS2qvVFulTROw" sourceAnchor="0.0,41.0" targetAnchor="111.0,33.0" target="_JHqOoOpcEeS2qvVFulTROw" source="_z_Kx8OpbEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_NDi1YOpcEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_NDkqkepcEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="_NDkqkupcEeS2qvVFulTROw" text="">
+      <visualProperties xmi:id="_NGfbsepcEeS2qvVFulTROw" position="-6.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NDkqk-pcEeS2qvVFulTROw" aggregationKind="NONE" name="evaluationStep" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_NDi1YepcEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_NGfbsOpcEeS2qvVFulTROw" position="-94.00000000000001,-86.0"/>
+      <visibility xmi:id="_NDkqlOpcEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_NDkqlepcEeS2qvVFulTROw" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NDkqlupcEeS2qvVFulTROw" aggregationKind="NONE" name="evaluationHook" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_NDjccepcEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="_NGfbsupcEeS2qvVFulTROw" position="1.0,2.0"/>
+      <visibility xmi:id="_NDkql-pcEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_NDkqmOpcEeS2qvVFulTROw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__uJPp-pdEeS2qvVFulTROw" sourceAnchor="138.0,58.0" targetAnchor="0.0,45.0" target="_7ksuAepdEeS2qvVFulTROw" source="_gaqi4enfEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#__uJPoOpdEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="__uJPqOpdEeS2qvVFulTROw"/>
+    <nameVisual xmi:id="__uJPqepdEeS2qvVFulTROw" text="">
+      <visualProperties xmi:id="__w-hOOpdEeS2qvVFulTROw" position="-10.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="__uJPqupdEeS2qvVFulTROw" aggregationKind="NONE" name="evaluation" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#__uJPoepdEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="__w-hN-pdEeS2qvVFulTROw" position="8.333333333333371,2.0"/>
+      <visibility xmi:id="__uJPq-pdEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="__uJPrOpdEeS2qvVFulTROw" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="__uJPrepdEeS2qvVFulTROw" aggregationKind="NONE" name="configuration" navigable="true">
+      <modelElement href="evaluation-framework-for-eclipse.uml#__uJPpOpdEeS2qvVFulTROw"/>
+      <visualProperties xmi:id="__w-hOepdEeS2qvVFulTROw" position="-93.0,-86.0"/>
+      <visibility xmi:id="__uJPrupdEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="__uJPr-pdEeS2qvVFulTROw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SIrRQepeEeS2qvVFulTROw" sourceAnchor="67.0,27.0" targetAnchor="77.0,0.0" dashed="true" superClass="_7ksuAepdEeS2qvVFulTROw" subClass="_AaexMepeEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_SIrRQOpeEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_SIrRQupeEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9l9JPepfEeS2qvVFulTROw" sourceY="28" targetX="-80" targetY="-28"/>
+    <bendpoints xmi:id="_9l9JPupfEeS2qvVFulTROw" sourceX="80" sourceY="28" targetY="-28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_STFxgepeEeS2qvVFulTROw" sourceAnchor="51.0,27.0" targetAnchor="77.0,0.0" dashed="true" superClass="_7ksuAepdEeS2qvVFulTROw" subClass="_CtadIepeEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_STFxgOpeEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_STFxgupeEeS2qvVFulTROw"/>
+    <bendpoints xmi:id="_9l9JO-pfEeS2qvVFulTROw" sourceY="28" targetX="62" targetY="-28"/>
+    <bendpoints xmi:id="_9l9JPOpfEeS2qvVFulTROw" sourceX="-62" sourceY="28" targetY="-28"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_KLDGEenfEeS2qvVFulTROw" name="EvaluationManager" associationsOut="_1Uss1-nfEeS2qvVFulTROw _fZhZh-ngEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_KLDGEOnfEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_KLDGEunfEeS2qvVFulTROw" position="394.0,343.0" size="134.0,83.0"/>
+    <visibility xmi:id="_KLDGE-nfEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_1UyzdOnfEeS2qvVFulTROw" name="evaluation">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_1Uss1OnfEeS2qvVFulTROw"/>
+      <visibility xmi:id="_1UyzdenfEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_1UyzdunfEeS2qvVFulTROw" label="*" max="-1"/>
+      <type xmi:id="_1Uyzd-nfEeS2qvVFulTROw" name="Evaluation">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_gaqi4OnfEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fZhZlOngEeS2qvVFulTROw" name="trackingManager">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_fZhZhOngEeS2qvVFulTROw"/>
+      <visibility xmi:id="_fZhZlengEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_fZhZlungEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_fZhZl-ngEeS2qvVFulTROw" name="TrackingManager">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_YzYzAOngEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gaqi4enfEeS2qvVFulTROw" name="Evaluation" associationsIn="_1Uss1-nfEeS2qvVFulTROw _DH4dgOpcEeS2qvVFulTROw" associationsOut="_19BRFenfEeS2qvVFulTROw __uJPp-pdEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_gaqi4OnfEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_gaqi4unfEeS2qvVFulTROw" position="385.0,105.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gaqi4-nfEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_htQMIenfEeS2qvVFulTROw" name="startTime">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_htQMIOnfEeS2qvVFulTROw"/>
+      <visibility xmi:id="_htQMIunfEeS2qvVFulTROw" label="-"/>
+      <cardinality xmi:id="_htQMI-nfEeS2qvVFulTROw" label="1" max="1" min="1"/>
+      <type xmi:id="_rTE24OnfEeS2qvVFulTROw" name="Date">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_RXWNUOniEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_isvTMenfEeS2qvVFulTROw" name="endTime">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_isvTMOnfEeS2qvVFulTROw"/>
+      <visibility xmi:id="_isvTMunfEeS2qvVFulTROw" label="-"/>
+      <cardinality xmi:id="_isvTM-nfEeS2qvVFulTROw" label="1" max="1" min="1"/>
+      <type xmi:id="_qRKG4OnfEeS2qvVFulTROw" name="Date">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_RXWNUeniEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1UyzcOnfEeS2qvVFulTROw" name="evaluationManager">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_1Uss0enfEeS2qvVFulTROw"/>
+      <visibility xmi:id="_1UyzcenfEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_1UyzcunfEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_1Uyzc-nfEeS2qvVFulTROw" name="EvaluationManager">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_KLDGEOnfEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_19BRIunfEeS2qvVFulTROw" name="evaluationStopper">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_19BREunfEeS2qvVFulTROw"/>
+      <visibility xmi:id="_19BRI-nfEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_19BRJOnfEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_19BRJenfEeS2qvVFulTROw" name="EvaluationStopper">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_tmm_wOnfEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DH5EkOpcEeS2qvVFulTROw" name="evaluationStep">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_DH0zIepcEeS2qvVFulTROw"/>
+      <visibility xmi:id="_DH5EkepcEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_DH5EkupcEeS2qvVFulTROw" label="*" max="-1"/>
+      <type xmi:id="_DH5Ek-pcEeS2qvVFulTROw" name="EvaluationStep">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_z_HuoOpbEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__uJPtOpdEeS2qvVFulTROw" name="configuration">
+      <modelElement href="evaluation-framework-for-eclipse.uml#__uJPpOpdEeS2qvVFulTROw"/>
+      <visibility xmi:id="__uJPtepdEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="__uJPtupdEeS2qvVFulTROw" label="*" max="-1"/>
+      <type xmi:id="__uJPt-pdEeS2qvVFulTROw" name="Configuration">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_7ksuAOpdEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jgnAIenfEeS2qvVFulTROw" name="start">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_jgnAIOnfEeS2qvVFulTROw"/>
+      <visibility xmi:id="_jgnAIunfEeS2qvVFulTROw" label="+"/>
+    </operations>
+    <operations xmi:id="_j8dOoenfEeS2qvVFulTROw" name="stop">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_j8dOoOnfEeS2qvVFulTROw"/>
+      <visibility xmi:id="_j8dOounfEeS2qvVFulTROw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_tmm_wenfEeS2qvVFulTROw" name="EvaluationStopper" associationsIn="_19BRFenfEeS2qvVFulTROw" subclassedBy="_0D-EwenfEeS2qvVFulTROw _G8seQengEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_tmm_wOnfEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_tmm_wunfEeS2qvVFulTROw" position="80.0,111.0" size="165.0,54.0"/>
+    <visibility xmi:id="_tmm_w-nfEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_19BRHunfEeS2qvVFulTROw" name="evaluation">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_187KcenfEeS2qvVFulTROw"/>
+      <visibility xmi:id="_19BRH-nfEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_19BRIOnfEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_19BRIenfEeS2qvVFulTROw" name="Evaluation">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_gaqi4OnfEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_kyKSIengEeS2qvVFulTROw" name="TrackingModul" associationsIn="_mmG8B-ngEeS2qvVFulTROw _Sr9FR-nhEeS2qvVFulTROw" subclassedBy="_HHUkcenhEeS2qvVFulTROw _HyFYsOnhEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_kyKSIOngEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_kyKSIungEeS2qvVFulTROw" position="695.0,567.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kyKSI-ngEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_mmG8EOngEeS2qvVFulTROw" name="trackingManager">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_mmG8AengEeS2qvVFulTROw"/>
+      <visibility xmi:id="_mmG8EengEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_mmG8EungEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_mmG8E-ngEeS2qvVFulTROw" name="TrackingManager">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_YzYzAOngEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Sr9FUOnhEeS2qvVFulTROw" name="trackingEvent">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_Sr9FQenhEeS2qvVFulTROw"/>
+      <visibility xmi:id="_Sr9FUenhEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_Sr9FUunhEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_Sr9FU-nhEeS2qvVFulTROw" name="TrackingEvent">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_PZRMgOnhEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_56ORAengEeS2qvVFulTROw" name="MouseModul" generalizations="_HHUkcenhEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_56ORAOngEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_56ORAungEeS2qvVFulTROw" position="599.0,671.0" size="112.0,47.0"/>
+    <visibility xmi:id="_56ORA-ngEeS2qvVFulTROw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7xU8kengEeS2qvVFulTROw" name="KeyboardModul" generalizations="_HyFYsOnhEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_7xU8kOngEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_7xU8kungEeS2qvVFulTROw" position="769.0,674.0" size="114.0,43.0"/>
+    <visibility xmi:id="_7xU8k-ngEeS2qvVFulTROw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Uww1oenhEeS2qvVFulTROw" name="LeftmouseClick" generalizations="_qvAOkenhEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_Uww1oOnhEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_Uww1ounhEeS2qvVFulTROw" position="210.0,532.0" size="127.0,62.0"/>
+    <visibility xmi:id="_Uww1o-nhEeS2qvVFulTROw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h-mI4enhEeS2qvVFulTROw" name="SpaceKey" generalizations="_qjp6MenhEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_h-mI4OnhEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_h-mI4unhEeS2qvVFulTROw" position="212.0,637.0" size="127.0,58.0"/>
+    <visibility xmi:id="_h-mI4-nhEeS2qvVFulTROw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_PZRMgenhEeS2qvVFulTROw" name="TrackingEvent" associationsOut="_Sr9FR-nhEeS2qvVFulTROw" subclassedBy="_qjp6MenhEeS2qvVFulTROw _qvAOkenhEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_PZRMgOnhEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_PZRMgunhEeS2qvVFulTROw" position="432.0,565.0" size="127.0,47.0"/>
+    <visibility xmi:id="_PZRMg-nhEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_Sr9FVOnhEeS2qvVFulTROw" name="trackingModul">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_Sr9FROnhEeS2qvVFulTROw"/>
+      <visibility xmi:id="_Sr9FVenhEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_Sr9FVunhEeS2qvVFulTROw" label="*" max="-1"/>
+      <type xmi:id="_Sr9FV-nhEeS2qvVFulTROw" name="TrackingModul">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_kyKSIOngEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_MHjuseniEeS2qvVFulTROw" name="ReportGenerator" associationsIn="_OqAdV-niEeS2qvVFulTROw" subclassedBy="_exxLEOniEeS2qvVFulTROw _e-1WseniEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_MHjusOniEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_MHjusuniEeS2qvVFulTROw" position="945.0,174.0" size="179.0,74.0"/>
+    <visibility xmi:id="_MHjus-niEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_OqAdYOniEeS2qvVFulTROw" name="reportManager">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_OqAdUeniEeS2qvVFulTROw"/>
+      <visibility xmi:id="_OqAdYeniEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_OqAdYuniEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_OqAdY-niEeS2qvVFulTROw" name="ReportManager">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_bIwH4OngEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Cm0YQeniEeS2qvVFulTROw" name="ReportPie" generalizations="_e-1WseniEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_Cm0YQOniEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_Cm0YQuniEeS2qvVFulTROw" position="1070.0,61.0" size="108.0,63.0"/>
+    <visibility xmi:id="_Cm0YQ-niEeS2qvVFulTROw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GRYlgeniEeS2qvVFulTROw" name="ReportTable" generalizations="_exxLEOniEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_GRYlgOniEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_GRYlguniEeS2qvVFulTROw" position="856.0,63.0" size="134.0,55.0"/>
+    <visibility xmi:id="_GRYlg-niEeS2qvVFulTROw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_z_Kx8OpbEeS2qvVFulTROw" name="EvaluationStep" associationsOut="_DH4dgOpcEeS2qvVFulTROw _NDkqkOpcEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_z_HuoOpbEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_z_Kx8epbEeS2qvVFulTROw" position="154.0,329.0" size="161.0,98.0"/>
+    <visibility xmi:id="_z_Kx8upbEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_2xFf8OpbEeS2qvVFulTROw" name="description">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_2xDDsOpbEeS2qvVFulTROw"/>
+      <visibility xmi:id="_2xFf8epbEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_2xFf8upbEeS2qvVFulTROw" label="1" max="1" min="1"/>
+      <type xmi:id="_2xFf8-pbEeS2qvVFulTROw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_40XmUOpbEeS2qvVFulTROw" name="startTime">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_40VxIOpbEeS2qvVFulTROw"/>
+      <visibility xmi:id="_40XmUepbEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_40XmUupbEeS2qvVFulTROw" label="1" max="1" min="1"/>
+      <type xmi:id="_RYYusOpcEeS2qvVFulTROw" name="Date">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_TpVdoOpcEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5tlGQOpbEeS2qvVFulTROw" name="stopTime">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_5tkfMOpbEeS2qvVFulTROw"/>
+      <visibility xmi:id="_5tlGQepbEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_5tlGQupbEeS2qvVFulTROw" label="1" max="1" min="1"/>
+      <type xmi:id="_SM4GsOpcEeS2qvVFulTROw" name="Date">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_TpWEsOpcEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DH5roOpcEeS2qvVFulTROw" name="evaluation">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_DH1aMupcEeS2qvVFulTROw"/>
+      <visibility xmi:id="_DH5roepcEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_DH5roupcEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_DH5ro-pcEeS2qvVFulTROw" name="Evaluation">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_gaqi4OnfEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NDlRoOpcEeS2qvVFulTROw" name="evaluationHook">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_NDjccepcEeS2qvVFulTROw"/>
+      <visibility xmi:id="_NDlRoepcEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_NDlRoupcEeS2qvVFulTROw" label="*" max="-1"/>
+      <type xmi:id="_NDlRo-pcEeS2qvVFulTROw" name="EvaluationHook">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_JHpnkOpcEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JHqOoOpcEeS2qvVFulTROw" name="EvaluationHook" associationsIn="_NDkqkOpcEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_JHpnkOpcEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_JHqOoepcEeS2qvVFulTROw" position="-59.0,337.0" size="111.0,67.0"/>
+    <visibility xmi:id="_JHqOoupcEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_NDkqmepcEeS2qvVFulTROw" name="evaluationStep">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_NDi1YepcEeS2qvVFulTROw"/>
+      <visibility xmi:id="_NDkqmupcEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_NDkqm-pcEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_NDkqnOpcEeS2qvVFulTROw" name="EvaluationStep">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_z_HuoOpbEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_L7HNsOpcEeS2qvVFulTROw" name="doStuff">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_L7GmoOpcEeS2qvVFulTROw"/>
+      <visibility xmi:id="_L7HNsepcEeS2qvVFulTROw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_7ksuAepdEeS2qvVFulTROw" name="Configuration" associationsIn="__uJPp-pdEeS2qvVFulTROw" subclassedBy="_SIrRQepeEeS2qvVFulTROw _STFxgepeEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_7ksuAOpdEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_7ksuAupdEeS2qvVFulTROw" position="617.0,118.0" size="154.0,90.0"/>
+    <visibility xmi:id="_7ksuA-pdEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_-EWnUepdEeS2qvVFulTROw" name="name">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_-EWnUOpdEeS2qvVFulTROw"/>
+      <visibility xmi:id="_-EWnUupdEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_-EWnU-pdEeS2qvVFulTROw" label="1" max="1" min="1"/>
+      <type xmi:id="_-EWnVOpdEeS2qvVFulTROw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-6XpUepdEeS2qvVFulTROw" name="description">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_-6XpUOpdEeS2qvVFulTROw"/>
+      <visibility xmi:id="_-6XpUupdEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_-6XpU-pdEeS2qvVFulTROw" label="1" max="1" min="1"/>
+      <type xmi:id="_-6XpVOpdEeS2qvVFulTROw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__uJPsOpdEeS2qvVFulTROw" name="evaluation">
+      <modelElement href="evaluation-framework-for-eclipse.uml#__uJPoepdEeS2qvVFulTROw"/>
+      <visibility xmi:id="__uJPsepdEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="__uJPsupdEeS2qvVFulTROw" label="*" max="-1"/>
+      <type xmi:id="__uJPs-pdEeS2qvVFulTROw" name="Evaluation">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_gaqi4OnfEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YzYzAengEeS2qvVFulTROw" name="TrackingManager" associationsIn="_fZhZh-ngEeS2qvVFulTROw" associationsOut="_gBn7UOngEeS2qvVFulTROw _mmG8B-ngEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_YzYzAOngEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_YzYzAungEeS2qvVFulTROw" position="665.0,346.0" size="152.0,83.0"/>
+    <visibility xmi:id="_YzYzA-ngEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_fZhZkOngEeS2qvVFulTROw" name="evaluationManager">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_fZhZgengEeS2qvVFulTROw"/>
+      <visibility xmi:id="_fZhZkengEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_fZhZkungEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_fZhZk-ngEeS2qvVFulTROw" name="EvaluationManager">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_KLDGEOnfEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gBoiZOngEeS2qvVFulTROw" name="reportManager">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_gBmtNOngEeS2qvVFulTROw"/>
+      <visibility xmi:id="_gBoiZengEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_gBoiZungEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_gBoiZ-ngEeS2qvVFulTROw" name="ReportManager">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_bIwH4OngEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mmG8FOngEeS2qvVFulTROw" name="trackingModul">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_mmG8BOngEeS2qvVFulTROw"/>
+      <visibility xmi:id="_mmG8FengEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_mmG8FungEeS2qvVFulTROw" label="*" max="-1"/>
+      <type xmi:id="_mmG8F-ngEeS2qvVFulTROw" name="TrackingModul">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_kyKSIOngEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bIwH4engEeS2qvVFulTROw" name="ReportManager" associationsIn="_gBn7UOngEeS2qvVFulTROw" associationsOut="_OqAdV-niEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_bIwH4OngEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_bIwH4ungEeS2qvVFulTROw" position="939.0,346.0" size="189.0,79.0"/>
+    <visibility xmi:id="_bIwH4-ngEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_gBoiYOngEeS2qvVFulTROw" name="trackingManager">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_gBmtMengEeS2qvVFulTROw"/>
+      <visibility xmi:id="_gBoiYengEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_gBoiYungEeS2qvVFulTROw" label="0..1" max="1"/>
+      <type xmi:id="_gBoiY-ngEeS2qvVFulTROw" name="TrackingManager">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_YzYzAOngEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OqGj8OniEeS2qvVFulTROw" name="reportGenerator">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_OqAdVOniEeS2qvVFulTROw"/>
+      <visibility xmi:id="_OqGj8eniEeS2qvVFulTROw" label="+"/>
+      <cardinality xmi:id="_OqGj8uniEeS2qvVFulTROw" label="*" max="-1"/>
+      <type xmi:id="_OqGj8-niEeS2qvVFulTROw" name="ReportGenerator">
+        <modelElement href="evaluation-framework-for-eclipse.uml#_MHjusOniEeS2qvVFulTROw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AaexMepeEeS2qvVFulTROw" name="EclipseConfiguration" generalizations="_SIrRQepeEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_AaexMOpeEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_AaexMupeEeS2qvVFulTROw" position="547.0,35.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AaexM-peEeS2qvVFulTROw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CtadIepeEeS2qvVFulTROw" name="IntelliJConfiguration" generalizations="_STFxgepeEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_CtadIOpeEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_CtadIupeEeS2qvVFulTROw" position="705.0,35.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_CtadI-peEeS2qvVFulTROw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v3zmUenfEeS2qvVFulTROw" name="ManualStopper" generalizations="_0D-EwenfEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_v3zmUOnfEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_v3zmUunfEeS2qvVFulTROw" position="-116.0,83.0" size="108.0,38.0"/>
+    <visibility xmi:id="_v3zmU-nfEeS2qvVFulTROw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-2jdkenfEeS2qvVFulTROw" name="AutomaticStopper" generalizations="_G8seQengEeS2qvVFulTROw">
+    <modelElement href="evaluation-framework-for-eclipse.uml#_-2jdkOnfEeS2qvVFulTROw"/>
+    <visualProperties xmi:id="_-2jdkunfEeS2qvVFulTROw" position="-131.0,174.0" size="169.0,80.0"/>
+    <visibility xmi:id="_-2jdk-nfEeS2qvVFulTROw" label="+"/>
+    <attributes xmi:id="_CEARAengEeS2qvVFulTROw" name="time">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_CEARAOngEeS2qvVFulTROw"/>
+      <visibility xmi:id="_CEARAungEeS2qvVFulTROw" label="-"/>
+      <cardinality xmi:id="_CEARA-ngEeS2qvVFulTROw" label="1" max="1" min="1"/>
+      <type xmi:id="_CEARBOngEeS2qvVFulTROw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_DsAwoengEeS2qvVFulTROw" name="commandOnStop">
+      <modelElement href="evaluation-framework-for-eclipse.uml#_DsAwoOngEeS2qvVFulTROw"/>
+      <visibility xmi:id="_DsAwoungEeS2qvVFulTROw" label="+"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="de.uks.ef.eclipse.tracking.PartTrackingModul" name="de.uks.ef.eclipse.tracking.PartTrackingModul" schema="schema/de.uks.ef.eclipse.tracking.PartTrackingModul.exsd"/>
+   <extension
+         point="de.uks.ef.eclipse.tracking.PartTrackingModul">
+      <PartReportModul
+            class="de.uks.ef.eclipse.tracking.parttrackingmodul.report.ByTimeReportModul">
+      </PartReportModul>
+   </extension>
+</plugin>

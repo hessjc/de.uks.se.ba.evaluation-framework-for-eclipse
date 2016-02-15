@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_4_xxUGW7EeWD7dtjtQ_HLQ">
+  <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--AqUGW7EeWD7dtjtQ_HLQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__BHBoGW7EeWD7dtjtQ_HLQ" sourceAnchor="258.0,173.0" targetAnchor="246.0,0.0" target="__BHouGW7EeWD7dtjtQ_HLQ" source="_BDB2EGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--hnsmW7EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="__BHBoWW7EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_BFc38WW8EeWD7dtjtQ_HLQ" position="2.0,-41.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="__BHBomW7EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--GJ4GW7EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_BFc38GW8EeWD7dtjtQ_HLQ" position="2.0,42.0"/>
+      <visibility xmi:id="__BHBo2W7EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__BHBpGW7EeWD7dtjtQ_HLQ" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="__BHBpWW7EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationManager" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--hnsGW7EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_BFdfAGW8EeWD7dtjtQ_HLQ" position="-119.0,-67.0"/>
+      <visibility xmi:id="__BHBpmW7EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__BHBp2W7EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__BHosGW7EeWD7dtjtQ_HLQ" target="__BHouGW7EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--iOwmW7EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="__BHosWW7EeWD7dtjtQ_HLQ" text=""/>
+    <sourceRole xmi:id="__BHosmW7EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="trackingManager" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--ImIGW7EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="__BHos2W7EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__BHotGW7EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__BHotWW7EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationManager" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--iOwGW7EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="__BHotmW7EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__BHot2W7EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BC8WgGW8EeWD7dtjtQ_HLQ" sourceAnchor="339.0,108.0" targetAnchor="0.0,87.0" target="_BDB2EGW8EeWD7dtjtQ_HLQ" source="_DE8DfWW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAEosmW8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_BC-LsGW8EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_DHRlwGW8EeWD7dtjtQ_HLQ" position="20.0,-20.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BC-LsWW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluation" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_oj0WW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_DHQ-sGW8EeWD7dtjtQ_HLQ" position="38.0,-48.0"/>
+      <visibility xmi:id="_BC-ywWW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BC-ywGW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BC-LsmW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAEosGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_DHSM0GW8EeWD7dtjtQ_HLQ" position="-158.0,1.0"/>
+      <visibility xmi:id="_BC-yw2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BC-ywmW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BDAA4GW8EeWD7dtjtQ_HLQ" sourceAnchor="0.0,49.0" targetAnchor="504.0,15.0" target="_BDB2EGW8EeWD7dtjtQ_HLQ" source="_FdqOUGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAGd4mW8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_BDAA4WW8EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_Ffuq4GW8EeWD7dtjtQ_HLQ" position="-6.0,-19.000000000000014"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BDAA4mW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationSender" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_px8GW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_FfuD0GW8EeWD7dtjtQ_HLQ" position="-113.0,2.0"/>
+      <visibility xmi:id="_BDAA42W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDAA5GW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BDAA5WW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAGd4GW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_Ffuq4WW8EeWD7dtjtQ_HLQ" position="-29.0,-57.0"/>
+      <visibility xmi:id="_BDAA5mW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDAA52W8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BDAn8GW8EeWD7dtjtQ_HLQ" sourceAnchor="0.0,22.0" targetAnchor="504.0,118.0" target="_BDB2EGW8EeWD7dtjtQ_HLQ" source="_IJka8GW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAHsAGW8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_BDAn8WW8EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_ILbcIGW8EeWD7dtjtQ_HLQ" position="-15.0,1.9999999999999858"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BDAn8mW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationStopper" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_qZAGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_ILa1EGW8EeWD7dtjtQ_HLQ" position="-118.0,-46.999999999999986"/>
+      <visibility xmi:id="_BDAn82W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDAn9GW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BDAn9WW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAHE8GW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_ILbcIWW8EeWD7dtjtQ_HLQ" position="12.0,24.000000000000014"/>
+      <visibility xmi:id="_BDAn9mW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDAn92W8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BDBPAGW8EeWD7dtjtQ_HLQ" sourceAnchor="77.0,44.0" targetAnchor="134.0,0.0" target="_BDB2EGW8EeWD7dtjtQ_HLQ" source="_LuG4sGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAITEGW8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_BDBPAWW8EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_LwEAgGW8EeWD7dtjtQ_HLQ" position="-7.5,-39.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BDBPAmW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_rAEGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_LwDZcGW8EeWD7dtjtQ_HLQ" position="-26.5,17.0"/>
+      <visibility xmi:id="_BDBPA2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDBPBGW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <qualifierHelper xmi:id="_BDBPBWW8EeWD7dtjtQ_HLQ">
+        <qualifiers xmi:id="_BDBPBmW8EeWD7dtjtQ_HLQ">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_rnIGW8EeWD7dtjtQ_HLQ"/>
+          <visibility xmi:id="_BDBPB2W8EeWD7dtjtQ_HLQ" label="+"/>
+          <cardinality xmi:id="_BDBPCGW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+          <type xmi:id="_BDBPCWW8EeWD7dtjtQ_HLQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </sourceRole>
+    <targetRole xmi:id="_BDBPCmW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAHsAWW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_LwEAgWW8EeWD7dtjtQ_HLQ" position="3.5,-42.0"/>
+      <visibility xmi:id="_BDBPC2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDBPDGW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DE8DcGW8EeWD7dtjtQ_HLQ" sourceAnchor="193.0,135.0" targetAnchor="169.0,0.0" target="_DE8DfWW8EeWD7dtjtQ_HLQ" source="_WgQzsGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCrZomW8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_DE8DcWW8EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_WiuR0GW8EeWD7dtjtQ_HLQ" position="-13.0,-32.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_DE8DcmW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCgagGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_WitqwGW8EeWD7dtjtQ_HLQ" position="2.0,32.0"/>
+      <visibility xmi:id="_DE8Dc2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_DE8DdGW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <qualifierHelper xmi:id="_DE8DdWW8EeWD7dtjtQ_HLQ">
+        <qualifiers xmi:id="_DE8DdmW8EeWD7dtjtQ_HLQ">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DChBkWW8EeWD7dtjtQ_HLQ"/>
+          <visibility xmi:id="_DE8Dd2W8EeWD7dtjtQ_HLQ" label="+"/>
+          <cardinality xmi:id="_DE8DeGW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+          <type xmi:id="_DE8DeWW8EeWD7dtjtQ_HLQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </sourceRole>
+    <targetRole xmi:id="_DE8DemW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluation" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCrZoGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_WiuR0WW8EeWD7dtjtQ_HLQ" position="2.0,-126.0"/>
+      <visibility xmi:id="_DE8De2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_DE8DfGW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WgPlkGW8EeWD7dtjtQ_HLQ" sourceAnchor="399.0,67.0" targetAnchor="0.0,87.0" target="_eh_OeGW8EeWD7dtjtQ_HLQ" source="_WgQzsGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXTsAmW8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_WgPlkWW8EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_ekxcsWW8EeWD7dtjtQ_HLQ" position="55.0,-20.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_WgPlkmW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationStep" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXTsAGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_ekxcsGW8EeWD7dtjtQ_HLQ" position="20.0,-48.0"/>
+      <visibility xmi:id="_WgPlk2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_WgPllGW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_WgPllWW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationStepConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXGQomW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_ekyDwGW8EeWD7dtjtQ_HLQ" position="-161.0,1.0"/>
+      <visibility xmi:id="_WgPllmW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_WgPll2W8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WgQMoGW8EeWD7dtjtQ_HLQ" sourceAnchor="69.0,147.0" targetAnchor="199.0,0.0" target="_WgQzsGW8EeWD7dtjtQ_HLQ" source="_aY-KoGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXUTEmW8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_WgQMoWW8EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_abZzkGW8EeWD7dtjtQ_HLQ" position="2.0,19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_WgQMomW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXG3sWW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_abYlcGW8EeWD7dtjtQ_HLQ" position="2.0,19.0"/>
+      <visibility xmi:id="_WgQMo2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_WgQMpGW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <qualifierHelper xmi:id="_WgQMpWW8EeWD7dtjtQ_HLQ">
+        <qualifiers xmi:id="_WgQMpmW8EeWD7dtjtQ_HLQ">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXHewWW8EeWD7dtjtQ_HLQ"/>
+          <visibility xmi:id="_WgQMp2W8EeWD7dtjtQ_HLQ" label="+"/>
+          <cardinality xmi:id="_WgQMqGW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+          <type xmi:id="_WgQMqWW8EeWD7dtjtQ_HLQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </sourceRole>
+    <targetRole xmi:id="_WgQMqmW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationStep" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXUTEGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_abZzkWW8EeWD7dtjtQ_HLQ" position="-95.0,-64.0"/>
+      <visibility xmi:id="_WgQMq2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_WgQMrGW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aY9jkGW8EeWD7dtjtQ_HLQ" target="_aY-KoGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_aO3zcGW8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_aY9jkWW8EeWD7dtjtQ_HLQ" text=""/>
+    <sourceRole xmi:id="_aY9jkmW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="doneTime" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_aOsNQWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_aY9jk2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_aY9jlGW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aY9jlWW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_aO3zcWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_aY9jlmW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_aY9jl2W8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eh-AUGW8EeWD7dtjtQ_HLQ" sourceAnchor="133.0,44.0" targetAnchor="439.0,0.0" target="_eh_OeGW8EeWD7dtjtQ_HLQ" source="_nK498GW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edqvIGW8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_eh-AUWW8EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_nNatgGW8EeWD7dtjtQ_HLQ" position="2.0,16.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eh-AUmW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edXNIGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_nNaGcGW8EeWD7dtjtQ_HLQ" position="2.0,16.0"/>
+      <visibility xmi:id="_eh-AU2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_eh-AVGW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <qualifierHelper xmi:id="_eh-AVWW8EeWD7dtjtQ_HLQ">
+        <qualifiers xmi:id="_eh-AVmW8EeWD7dtjtQ_HLQ">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edX0MGW8EeWD7dtjtQ_HLQ"/>
+          <visibility xmi:id="_eh-AV2W8EeWD7dtjtQ_HLQ" label="+"/>
+          <cardinality xmi:id="_eh-AWGW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+          <type xmi:id="_eh-AWWW8EeWD7dtjtQ_HLQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </sourceRole>
+    <targetRole xmi:id="_eh-AWmW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationStepConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edqIEGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_nNatgWW8EeWD7dtjtQ_HLQ" position="-169.0,-62.0"/>
+      <visibility xmi:id="_eh-AW2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_eh-AXGW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eh_OcGW8EeWD7dtjtQ_HLQ" sourceAnchor="78.0,0.0" targetAnchor="438.0,109.0" target="_eh_OeGW8EeWD7dtjtQ_HLQ" source="_xq3j0GW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edrWM2W8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_eh_OcWW8EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_xtTz0GW8EeWD7dtjtQ_HLQ" position="-18.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eh_OcmW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationStepValidation" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edZCUGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_xtTMwGW8EeWD7dtjtQ_HLQ" position="2.0,-49.0"/>
+      <visibility xmi:id="_eh_Oc2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_eh_OdGW8EeWD7dtjtQ_HLQ" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eh_OdWW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationStepConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edrWMWW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_xtTz0WW8EeWD7dtjtQ_HLQ" position="-196.0,7.0"/>
+      <visibility xmi:id="_eh_OdmW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_eh_Od2W8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-vqP0GW8EeWD7dtjtQ_HLQ" source="_-vq24GW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-pNpkGW8EeWD7dtjtQ_HLQ"/>
+    <stereotypes xmi:id="_-vqP0WW8EeWD7dtjtQ_HLQ" name="Reference">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-pO3sGW8EeWD7dtjtQ_HLQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-vqP0mW8EeWD7dtjtQ_HLQ" text=""/>
+    <sourceRole xmi:id="_-vqP02W8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-pNpkWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_-vqP1GW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-vqP1WW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-vqP1mW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationLogEvent" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-o8j0WW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_-vqP12W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-vqP2GW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__fua0GW8EeWD7dtjtQ_HLQ" sourceAnchor="214.0,114.0" targetAnchor="77.0,0.0" target="__fwQBGW8EeWD7dtjtQ_HLQ" source="_-vq24GW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#__acSMGW8EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="__fvB4GW8EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="__h9PcWW8EeWD7dtjtQ_HLQ" position="-13.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="__fvB4WW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationLog" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#__aZO4GW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="__h9PcGW8EeWD7dtjtQ_HLQ" position="-131.0,1.0"/>
+      <visibility xmi:id="__fwQAWW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__fwQAGW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__fvo8GW8EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#__ac5QGW8EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="__h92gGW8EeWD7dtjtQ_HLQ" position="2.0,-51.0"/>
+      <visibility xmi:id="__fwQA2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__fwQAmW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_K16P8GW9EeWD7dtjtQ_HLQ" sourceAnchor="98.0,0.0" targetAnchor="78.0,44.0" superClass="_xq3j0GW8EeWD7dtjtQ_HLQ" subClass="_K17eEGW9EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_Kxnl0GW9EeWD7dtjtQ_HLQ"/>
+    <bendpoints xmi:id="_sO0f8GW-EeWD7dtjtQ_HLQ" sourceY="-15" targetX="-63" targetY="15"/>
+    <bendpoints xmi:id="_sO1HAGW-EeWD7dtjtQ_HLQ" sourceX="63" sourceY="-15" targetY="15"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_NpDF8GW9EeWD7dtjtQ_HLQ" sourceAnchor="89.0,0.0" targetAnchor="78.0,44.0" superClass="_xq3j0GW8EeWD7dtjtQ_HLQ" subClass="_NpDtAGW9EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_NljGAGW9EeWD7dtjtQ_HLQ"/>
+    <bendpoints xmi:id="_sO1HAWW-EeWD7dtjtQ_HLQ" sourceY="-14" targetX="160" targetY="15"/>
+    <bendpoints xmi:id="_sO1HAmW-EeWD7dtjtQ_HLQ" sourceX="-160" sourceY="-14" targetY="15"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Qvc2MGW9EeWD7dtjtQ_HLQ" sourceAnchor="154.0,0.0" targetAnchor="67.0,90.0" target="_QverZGW9EeWD7dtjtQ_HLQ" source="_eh_OeGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_QrGhsGW9EeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_QvddQWW9EeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_QzEK4GW9EeWD7dtjtQ_HLQ" position="2.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_QvddQmW9EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationStepConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_QrCQQWW9EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_QzDj0GW9EeWD7dtjtQ_HLQ" position="-169.0,-50.0"/>
+      <visibility xmi:id="_QverYWW9EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_QverYGW9EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QvddQ2W9EeWD7dtjtQ_HLQ" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_QrGhsWW9EeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_QzEK4WW9EeWD7dtjtQ_HLQ" position="41.0,1.0"/>
+      <visibility xmi:id="_QverY2W9EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_QverYmW9EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_QvddQGW9EeWD7dtjtQ_HLQ" sourceAnchor="81.0,71.0" targetAnchor="67.0,0.0" superClass="_QverZGW9EeWD7dtjtQ_HLQ" subClass="_s349AGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_rDPIgWW8EeWD7dtjtQ_HLQ"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_DE8DfWW8EeWD7dtjtQ_HLQ" name="Evaluation" associationsIn="_DE8DcGW8EeWD7dtjtQ_HLQ" associationsOut="_BC8WgGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--ekYGW7EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_DE8DfmW8EeWD7dtjtQ_HLQ" position="31.0,-110.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_DE8Df2W8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_DE8DgGW8EeWD7dtjtQ_HLQ" name="evaluationConfiguration">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAEosGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_DE8DgWW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_DE8DgmW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_DE8Dg2W8EeWD7dtjtQ_HLQ" name="EvaluationConfiguration">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--TlQGW7EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DE8DhGW8EeWD7dtjtQ_HLQ" name="id">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCelUWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_DE8DhWW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_DE8DhmW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_DE8Dh2W8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DE8DiGW8EeWD7dtjtQ_HLQ" name="name">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCfMYGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_DE8DiWW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_DE8DimW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_DE8Di2W8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DE8DjGW8EeWD7dtjtQ_HLQ" name="description">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCfzcGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_DE8DjWW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_DE8DjmW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_DE8qgGW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DE8qgWW8EeWD7dtjtQ_HLQ" name="started">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCfzcWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_DE8qgmW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_DE8qg2W8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_DE8qhGW8EeWD7dtjtQ_HLQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_DE8qiWW8EeWD7dtjtQ_HLQ" name="start">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DChooGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_DE8qimW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_DE8qi2W8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DE8qjGW8EeWD7dtjtQ_HLQ" name="stop">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DChooWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_DE8qjWW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_DE8qjmW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DE8qj2W8EeWD7dtjtQ_HLQ" name="addEvaluationStep">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCqLgWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_DE8qkGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_DE8qkWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_DE8qkmW8EeWD7dtjtQ_HLQ" name="evaluationStep">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCqLgmW8EeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="_DE8qk2W8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_DE8qlGW8EeWD7dtjtQ_HLQ" name="EvaluationStep">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCpkcGW8EeWD7dtjtQ_HLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_WgQzsGW8EeWD7dtjtQ_HLQ" name="EvaluationStep" associationsIn="_WgQMoGW8EeWD7dtjtQ_HLQ" associationsOut="_DE8DcGW8EeWD7dtjtQ_HLQ _WgPlkGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCpkcGW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_WgQzsWW8EeWD7dtjtQ_HLQ" position="7.0,-448.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WgQzsmW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_WgQzs2W8EeWD7dtjtQ_HLQ" name="evaluation">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCrZoGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_WgQztGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_WgQztWW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_WgQztmW8EeWD7dtjtQ_HLQ" name="Evaluation">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--ekYGW7EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WgQzt2W8EeWD7dtjtQ_HLQ" name="id">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXFpkGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_WgQzuGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_WgQzuWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WgQzumW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WgQzu2W8EeWD7dtjtQ_HLQ" name="name">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXGQoGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_WgQzvGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_WgQzvWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WgQzvmW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WgQzv2W8EeWD7dtjtQ_HLQ" name="description">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXGQoWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_WgQzwGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_WgQzwWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WgQzwmW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WgQzw2W8EeWD7dtjtQ_HLQ" name="evaluationStepConfiguration">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXGQomW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_WgQzxGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_WgQzxWW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_WgQzxmW8EeWD7dtjtQ_HLQ" name="EvaluationStepConfiguration">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXQosGW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WgQzy2W8EeWD7dtjtQ_HLQ" name="addEvaluationSubStep">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXTE8GW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_WgQzzGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_WgQzzWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WgQzzmW8EeWD7dtjtQ_HLQ" name="evaluationSubStep">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXTE8WW8EeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="_WgQzz2W8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_WgQz0GW8EeWD7dtjtQ_HLQ" name="EvaluationSubStep">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXR20GW8EeWD7dtjtQ_HLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_BDB2EGW8EeWD7dtjtQ_HLQ" name="EvaluationConfiguration" associationsIn="_BC8WgGW8EeWD7dtjtQ_HLQ _BDAA4GW8EeWD7dtjtQ_HLQ _BDAn8GW8EeWD7dtjtQ_HLQ _BDBPAGW8EeWD7dtjtQ_HLQ" associationsOut="__BHBoGW7EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--TlQGW7EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_BDB2EWW8EeWD7dtjtQ_HLQ" position="555.0,-89.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BDB2EmW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_BDB2E2W8EeWD7dtjtQ_HLQ" name="evaluationManager">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--hnsGW7EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BDB2FGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDB2FWW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_BDB2FmW8EeWD7dtjtQ_HLQ" name="EvaluationManager">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--DGkGW7EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BDB2F2W8EeWD7dtjtQ_HLQ" name="email">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_n8wGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BDB2GGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDB2GWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BDB2GmW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BDB2G2W8EeWD7dtjtQ_HLQ" name="url">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_n8wWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BDB2HGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDB2HWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BDB2HmW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BDB2H2W8EeWD7dtjtQ_HLQ" name="optionalIdentity">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_oj0GW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BDB2IGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDB2IWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BDB2ImW8EeWD7dtjtQ_HLQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BDB2I2W8EeWD7dtjtQ_HLQ" name="evaluation">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_oj0WW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BDB2JGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDB2JWW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_BDB2JmW8EeWD7dtjtQ_HLQ" name="Evaluation">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--ekYGW7EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BDB2J2W8EeWD7dtjtQ_HLQ" name="evaluationSender">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_px8GW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BDB2KGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDB2KWW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_BDB2KmW8EeWD7dtjtQ_HLQ" name="EvaluationSender">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A__JIGW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BDB2K2W8EeWD7dtjtQ_HLQ" name="evaluationStopper">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_qZAGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BDB2LGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDB2LWW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_BDB2LmW8EeWD7dtjtQ_HLQ" name="EvaluationStopper">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAAXQGW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BDB2M2W8EeWD7dtjtQ_HLQ" name="sendToEmail">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_sOMGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BDB2NGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDB2NWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_BDB2NmW8EeWD7dtjtQ_HLQ" name="sendToUrl">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A_s1QGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BDB2N2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDB2OGW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_BDB2OWW8EeWD7dtjtQ_HLQ" name="addEvaluationExecutionTime">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BACzgGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BDB2OmW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BDB2O2W8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BDB2PGW8EeWD7dtjtQ_HLQ" name="evaluationExecutionTime">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BACzgWW8EeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="_BDB2PWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BDB2PmW8EeWD7dtjtQ_HLQ" name="EvaluationExecutionTime">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BABlYGW8EeWD7dtjtQ_HLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_eh_OeGW8EeWD7dtjtQ_HLQ" name="EvaluationStepConfiguration" associationsIn="_WgPlkGW8EeWD7dtjtQ_HLQ _eh-AUGW8EeWD7dtjtQ_HLQ _eh_OcGW8EeWD7dtjtQ_HLQ" associationsOut="_Qvc2MGW9EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXQosGW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_eh_OeWW8EeWD7dtjtQ_HLQ" position="560.0,-468.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eh_OemW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_eh_Oe2W8EeWD7dtjtQ_HLQ" name="evaluationStep">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXTsAGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_eh_OfGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_eh_OfWW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_eh_OfmW8EeWD7dtjtQ_HLQ" name="EvaluationStep">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCpkcGW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eh_Oh2W8EeWD7dtjtQ_HLQ" name="evaluationStepValidation">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edZCUGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_eh_OiGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_eh_OiWW8EeWD7dtjtQ_HLQ" label="*" max="-1"/>
+      <type xmi:id="_eh_OimW8EeWD7dtjtQ_HLQ" name="EvaluationStepValidation">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edoS4WW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eh_Oi2W8EeWD7dtjtQ_HLQ" name="addEvaluationStepExecutionTime">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edmdsWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_eh_OjGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_eh_OjWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eh_OjmW8EeWD7dtjtQ_HLQ" name="evaluationStepExecutionTime">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_ednEwGW8EeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="_eh_Oj2W8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eh_OkGW8EeWD7dtjtQ_HLQ" name="EvaluationStepExecutionTime">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edl2oGW8EeWD7dtjtQ_HLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eh_OkWW8EeWD7dtjtQ_HLQ" name="addEvaluationStepImportProject">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_ednr0WW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_eh_OkmW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_eh_Ok2W8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eh_OlGW8EeWD7dtjtQ_HLQ" name="evaluationStepImportProject">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edoS4GW8EeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="_eh_OlWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eh_1gGW8EeWD7dtjtQ_HLQ" name="EvaluationStepImportProject">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_ednEwWW8EeWD7dtjtQ_HLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eh_1gWW8EeWD7dtjtQ_HLQ" name="addEvaluationStepValidation">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edo58WW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_eh_1gmW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_eh_1g2W8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eh_1hGW8EeWD7dtjtQ_HLQ" name="evaluationStepValidation">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edo58mW8EeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="_eh_1hWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eh_1hmW8EeWD7dtjtQ_HLQ" name="EvaluationStepValidation">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edoS4WW8EeWD7dtjtQ_HLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_-vq24GW8EeWD7dtjtQ_HLQ" name="EvaluationLog" associationsOut="_-vqP0GW8EeWD7dtjtQ_HLQ __fua0GW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-o7VsGW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_-vq24WW8EeWD7dtjtQ_HLQ" position="36.0,138.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_-vq24mW8EeWD7dtjtQ_HLQ" name="LegacyStyledElement">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-o8j0GW8EeWD7dtjtQ_HLQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_-vq242W8EeWD7dtjtQ_HLQ" name="Annotations">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-o-ZAGW8EeWD7dtjtQ_HLQ"/>
+    </stereotypes>
+    <visibility xmi:id="_-vq25GW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_-vq25WW8EeWD7dtjtQ_HLQ" name="evaluationLogEvent">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-o8j0WW8EeWD7dtjtQ_HLQ"/>
+      <stereotypes xmi:id="_-vq25mW8EeWD7dtjtQ_HLQ" name="Generics">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-o9K4GW8EeWD7dtjtQ_HLQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-vq252W8EeWD7dtjtQ_HLQ" name="StyledElement">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-o9x8GW8EeWD7dtjtQ_HLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-vq26GW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-vq26WW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_-vq26mW8EeWD7dtjtQ_HLQ" name="HashMap">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-pGU0GW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-vq262W8EeWD7dtjtQ_HLQ" name="addEvaluationLogEvent">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-pNCgWW8EeWD7dtjtQ_HLQ"/>
+      <stereotypes xmi:id="_-vq27GW8EeWD7dtjtQ_HLQ" name="StyledElement">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-pNCg2W8EeWD7dtjtQ_HLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-vq27WW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-vq27mW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-vq272W8EeWD7dtjtQ_HLQ" name="evaluationLogEvent">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-pNCgmW8EeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="_-vq28GW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-vq28WW8EeWD7dtjtQ_HLQ" name="EvaluationLogEvent">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-pMbcGW8EeWD7dtjtQ_HLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="__fwQBGW8EeWD7dtjtQ_HLQ" name="EvaluationLogEvent" associationsIn="__fua0GW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-pMbcGW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="__fwQBWW8EeWD7dtjtQ_HLQ" position="173.0,312.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__fwQBmW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="__fwQB2W8EeWD7dtjtQ_HLQ" name="evaluation">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#__aYn0GW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="__fwQCGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__fwQCWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="__fwQCmW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__fwQC2W8EeWD7dtjtQ_HLQ" name="description">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#__aYn0WW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="__fwQDGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__fwQDWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="__fwQDmW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__fwQD2W8EeWD7dtjtQ_HLQ" name="evaluationLog">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#__aZO4GW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="__fwQEGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__fwQEWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="__fwQEmW8EeWD7dtjtQ_HLQ" name="EvaluationLog">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_-o7VsGW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_xq3j0GW8EeWD7dtjtQ_HLQ" name="EvaluationStepValidation" associationsOut="_eh_OcGW8EeWD7dtjtQ_HLQ" subclassedBy="_K16P8GW9EeWD7dtjtQ_HLQ _NpDF8GW9EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edoS4WW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_xq3j0WW8EeWD7dtjtQ_HLQ" position="920.0,-304.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xq3j0mW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_xq3j02W8EeWD7dtjtQ_HLQ" name="evaluationStepConfiguration">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edrWMWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_xq3j1GW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_xq3j1WW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_xq3j1mW8EeWD7dtjtQ_HLQ" name="EvaluationStepConfiguration">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXQosGW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_K17eEGW9EeWD7dtjtQ_HLQ" name="EvaluationStepValidationJUnit" generalizations="_K16P8GW9EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_KxitUGW9EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_K17eEWW9EeWD7dtjtQ_HLQ" position="837.0,-230.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_K17eEmW9EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_K17eE2W9EeWD7dtjtQ_HLQ" name="name">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_Kxj7cGW9EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_K17eFGW9EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_K17eFWW9EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_K17eFmW9EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_NpDtAGW9EeWD7dtjtQ_HLQ" name="EvaluationStepValidationManual" generalizations="_NpDF8GW9EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_NlfboGW9EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_NpDtAWW9EeWD7dtjtQ_HLQ" position="1069.0,-231.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NpDtAmW9EeWD7dtjtQ_HLQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_FdqOUGW8EeWD7dtjtQ_HLQ" name="EvaluationSender" associationsOut="_BDAA4GW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_A__JIGW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_FdqOUWW8EeWD7dtjtQ_HLQ" position="1185.0,-123.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_FdqOUmW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_FdqOU2W8EeWD7dtjtQ_HLQ" name="evaluationConfiguration">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAGd4GW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_FdqOVGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_FdqOVWW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_FdqOVmW8EeWD7dtjtQ_HLQ" name="EvaluationConfiguration">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--TlQGW7EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_FdqOV2W8EeWD7dtjtQ_HLQ" name="sendToEmail">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_FbjVgGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_FdqOWGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_FdqOWWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_FdqOWmW8EeWD7dtjtQ_HLQ" name="sendToUrl">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_FbjVgWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_FdqOW2W8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_FdqOXGW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_IJka8GW8EeWD7dtjtQ_HLQ" name="EvaluationStopper" associationsOut="_BDAn8GW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAAXQGW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_IJka8WW8EeWD7dtjtQ_HLQ" position="1188.0,7.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IJka8mW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_IJka82W8EeWD7dtjtQ_HLQ" name="evaluationConfiguration">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAHE8GW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_IJka9GW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_IJka9WW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_IJka9mW8EeWD7dtjtQ_HLQ" name="EvaluationConfiguration">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--TlQGW7EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_aY-KoGW8EeWD7dtjtQ_HLQ" name="EvaluationSubStep" associationsIn="_aY9jkGW8EeWD7dtjtQ_HLQ" associationsOut="_WgQMoGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXR20GW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_aY-KoWW8EeWD7dtjtQ_HLQ" position="137.0,-696.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aY-KomW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_aY-Ko2W8EeWD7dtjtQ_HLQ" name="evaluationStep">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXUTEGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_aY-KpGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_aY-KpWW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_aY-KpmW8EeWD7dtjtQ_HLQ" name="EvaluationStep">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_DCpkcGW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aY-Kp2W8EeWD7dtjtQ_HLQ" name="id">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_aOq_IGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_aY-KqGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_aY-KqWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_aY-KqmW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aY-Kq2W8EeWD7dtjtQ_HLQ" name="name">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_aOrmMGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_aY-KrGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_aY-KrWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_aY-KrmW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aY-Kr2W8EeWD7dtjtQ_HLQ" name="description">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_aOrmMWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_aY-KsGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_aY-KsWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_aY-KsmW8EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aY-Ks2W8EeWD7dtjtQ_HLQ" name="done">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_aOsNQGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_aY-KtGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_aY-KtWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_aY-KtmW8EeWD7dtjtQ_HLQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aY-Kt2W8EeWD7dtjtQ_HLQ" name="doneTime">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_aOsNQWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_aY-KuGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_aY-KuWW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_aY-KumW8EeWD7dtjtQ_HLQ" name="Date">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_aO1XMGW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_QverZGW9EeWD7dtjtQ_HLQ" name="EvaluationStepImport" associationsIn="_Qvc2MGW9EeWD7dtjtQ_HLQ" subclassedBy="_QvddQGW9EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_rDOhcGW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_QverZWW9EeWD7dtjtQ_HLQ" position="647.0,-616.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QverZmW9EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_QverZ2W9EeWD7dtjtQ_HLQ" name="id">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_QrBpM2W9EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_QveraGW9EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_QveraWW9EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_QveramW9EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Qvera2W9EeWD7dtjtQ_HLQ" name="name">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_QrCQQGW9EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_QverbGW9EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_QverbWW9EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_QverbmW9EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Qverb2W9EeWD7dtjtQ_HLQ" name="evaluationStepConfiguration">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_QrCQQWW9EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_QvercGW9EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_QvercWW9EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_QvercmW9EeWD7dtjtQ_HLQ" name="EvaluationStepConfiguration">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXQosGW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_s349AGW8EeWD7dtjtQ_HLQ" name="EvaluationStepImportProject" generalizations="_QvddQGW9EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_ednEwWW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_s349AWW8EeWD7dtjtQ_HLQ" position="633.0,-733.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_s349A2W8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_s349CGW8EeWD7dtjtQ_HLQ" name="imported">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_rDK3EWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_s349CWW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_s349CmW8EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_s349C2W8EeWD7dtjtQ_HLQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_nK498GW8EeWD7dtjtQ_HLQ" name="EvaluationStepExecutionTime" associationsOut="_eh-AUGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edl2oGW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_nK498WW8EeWD7dtjtQ_HLQ" position="866.0,-605.0" size="266.0,44.0"/>
+    <visibility xmi:id="_nK498mW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_nK4982W8EeWD7dtjtQ_HLQ" name="evaluationStepConfiguration">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_edqIEGW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_nK499GW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_nK499WW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_nK499mW8EeWD7dtjtQ_HLQ" name="EvaluationStepConfiguration">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_WXQosGW8EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="__BHouGW7EeWD7dtjtQ_HLQ" name="EvaluationManager" associationsIn="__BHBoGW7EeWD7dtjtQ_HLQ __BHosGW7EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--DGkGW7EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="__BHouWW7EeWD7dtjtQ_HLQ" position="567.0,193.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__BHoumW7EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="__BHou2W7EeWD7dtjtQ_HLQ" name="evaluationProjectName">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--EUsGW7EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="__BHovGW7EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__BHovWW7EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="__BHovmW7EeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__BHov2W7EeWD7dtjtQ_HLQ" name="evaluationConfiguration">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--GJ4GW7EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="__BHowGW7EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__BHowWW7EeWD7dtjtQ_HLQ" label="*" max="-1"/>
+      <type xmi:id="__BHowmW7EeWD7dtjtQ_HLQ" name="EvaluationConfiguration">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--TlQGW7EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__BHow2W7EeWD7dtjtQ_HLQ" name="trackingManager">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--ImIGW7EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="__BHoxGW7EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__BHoxWW7EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="__BHoxmW7EeWD7dtjtQ_HLQ" name="TrackingManager">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--fygGW7EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__BHox2W7EeWD7dtjtQ_HLQ" name="findEvaluation">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--HYAGW7EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="__BHoyGW7EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__BHoyWW7EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__BHoymW7EeWD7dtjtQ_HLQ">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--fLcWW7EeWD7dtjtQ_HLQ"/>
+        <type xmi:id="__BHoy2W7EeWD7dtjtQ_HLQ" name="Evaluation">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--ekYGW7EeWD7dtjtQ_HLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__BHozGW7EeWD7dtjtQ_HLQ" name="elementId">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--H_EGW7EeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="__BHozWW7EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="__BHozmW7EeWD7dtjtQ_HLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__BHoz2W7EeWD7dtjtQ_HLQ" name="addEvaluationConfiguration">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--d9UGW7EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="__BHo0GW7EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="__BHo0WW7EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="__BHo0mW7EeWD7dtjtQ_HLQ" name="evaluationConfiguration">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--d9UWW7EeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="__BHo02W7EeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="__BHo1GW7EeWD7dtjtQ_HLQ" name="EvaluationConfiguration">
+          <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--TlQGW7EeWD7dtjtQ_HLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_LuG4sGW8EeWD7dtjtQ_HLQ" name="EvaluationExecutionTime" associationsOut="_BDBPAGW8EeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BABlYGW8EeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_LuG4sWW8EeWD7dtjtQ_HLQ" position="612.0,-213.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LuG4smW8EeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_LuG4s2W8EeWD7dtjtQ_HLQ" name="evaluationConfiguration">
+      <modelElement href="de.uks.evaluation-framework.evaluation.uml#_BAHsAWW8EeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_LuG4tGW8EeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_LuG4tWW8EeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_LuG4tmW8EeWD7dtjtQ_HLQ" name="EvaluationConfiguration">
+        <modelElement href="de.uks.evaluation-framework.evaluation.uml#_--TlQGW7EeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

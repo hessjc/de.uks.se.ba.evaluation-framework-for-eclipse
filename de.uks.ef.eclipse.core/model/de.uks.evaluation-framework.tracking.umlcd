@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_7_CX8GXgEeWD7dtjtQ_HLQ">
+  <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FIhx2XgEeWD7dtjtQ_HLQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-Lr1sGXgEeWD7dtjtQ_HLQ" sourceAnchor="82.0,116.0" targetAnchor="113.0,0.0" target="_AHk6smXhEeWD7dtjtQ_HLQ" source="_-Lr10mXgEeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNxGXgEeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_-Lr1sWXgEeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_AJzvQWXhEeWD7dtjtQ_HLQ" position="2.0,-35.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-Lr1smXgEeWD7dtjtQ_HLQ" aggregationKind="NONE" name="trackingManager" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNwmXgEeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_AJzvQGXhEeWD7dtjtQ_HLQ" position="-107.0,28.333333333333314"/>
+      <visibility xmi:id="_-Lr1s2XgEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-Lr1tGXgEeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-Lr1tWXgEeWD7dtjtQ_HLQ" aggregationKind="NONE" name="trackingModul" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FRrvWXgEeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_AJzvQmXhEeWD7dtjtQ_HLQ" position="2.0,-73.33333333333337"/>
+      <visibility xmi:id="_-Lr1tmXgEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-Lr1t2XgEeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <qualifierHelper xmi:id="_-Lr1uGXgEeWD7dtjtQ_HLQ">
+        <qualifiers xmi:id="_-Lr1uWXgEeWD7dtjtQ_HLQ">
+          <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FRrv2XgEeWD7dtjtQ_HLQ"/>
+          <visibility xmi:id="_-Lr1umXgEeWD7dtjtQ_HLQ" label="+"/>
+          <cardinality xmi:id="_-Lr1u2XgEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+          <type xmi:id="_-Lr1vGXgEeWD7dtjtQ_HLQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-Lr1ymXgEeWD7dtjtQ_HLQ" target="_-Lr10mXgEeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FuXomXgEeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_-Lr1y2XgEeWD7dtjtQ_HLQ" text=""/>
+    <sourceRole xmi:id="_-Lr1zGXgEeWD7dtjtQ_HLQ" aggregationKind="NONE" name="evaluationManager" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FRrvGXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_-Lr1zWXgEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-Lr1zmXgEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-Lr1z2XgEeWD7dtjtQ_HLQ" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FuXo2XgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_-Lr10GXgEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-Lr10WXgEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AHk6oGXhEeWD7dtjtQ_HLQ" sourceAnchor="226.0,64.0" targetAnchor="0.0,35.0" target="_BTD2XmXhEeWD7dtjtQ_HLQ" source="_AHk6smXhEeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lbyd2XgEeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_AHk6o2XhEeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_BU6QdGXhEeWD7dtjtQ_HLQ" position="42.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AHk6pGXhEeWD7dtjtQ_HLQ" aggregationKind="NONE" name="trackingModul" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lbydWXgEeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_BU6Qc2XhEeWD7dtjtQ_HLQ" position="12.0,-47.0"/>
+      <visibility xmi:id="_AHk6p2XhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_AHk6pmXhEeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AHk6pWXhEeWD7dtjtQ_HLQ" aggregationKind="NONE" name="trackingEvent" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lSog2XgEeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_BU6QdWXhEeWD7dtjtQ_HLQ" position="-101.0,2.0"/>
+      <visibility xmi:id="_AHk6qWXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_AHk6qGXhEeWD7dtjtQ_HLQ" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AHk6qmXhEeWD7dtjtQ_HLQ" source="_AHk6smXhEeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lbyemXgEeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_AHk6q2XhEeWD7dtjtQ_HLQ" text=""/>
+    <sourceRole xmi:id="_AHk6rGXhEeWD7dtjtQ_HLQ" aggregationKind="NONE" name="trackingModul" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lbyeGXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_AHk6rWXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_AHk6rmXhEeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AHk6r2XhEeWD7dtjtQ_HLQ" aggregationKind="NONE" name="reportModul" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lSohmXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_AHk6sGXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_AHk6sWXhEeWD7dtjtQ_HLQ" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BTD2UGXhEeWD7dtjtQ_HLQ" sourceAnchor="395.0,116.0" targetAnchor="72.0,0.0" target="_BTD2XmXhEeWD7dtjtQ_HLQ" source="_-Lr10mXgEeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.tracking.uml#_BKkBomXhEeWD7dtjtQ_HLQ"/>
+    <nameVisual xmi:id="_BTD2UWXhEeWD7dtjtQ_HLQ" text="">
+      <visualProperties xmi:id="_BU6QcWXhEeWD7dtjtQ_HLQ" position="2.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BTD2UmXhEeWD7dtjtQ_HLQ" aggregationKind="NONE" name="trackingManager" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_BKRGtGXhEeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_BU6QcGXhEeWD7dtjtQ_HLQ" position="-106.5,28.75"/>
+      <visibility xmi:id="_BTD2VWXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BTD2VGXhEeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BTD2U2XhEeWD7dtjtQ_HLQ" aggregationKind="NONE" name="trackingEvent" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FRruWXgEeWD7dtjtQ_HLQ"/>
+      <visualProperties xmi:id="_BU6QcmXhEeWD7dtjtQ_HLQ" position="-88.5,-73.75"/>
+      <visibility xmi:id="_BTD2WWXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BTD2WGXhEeWD7dtjtQ_HLQ" label="*" max="-1"/>
+      <qualifierHelper xmi:id="_BTD2VmXhEeWD7dtjtQ_HLQ">
+        <qualifiers xmi:id="_BTD2V2XhEeWD7dtjtQ_HLQ">
+          <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FRru2XgEeWD7dtjtQ_HLQ"/>
+          <visibility xmi:id="_BTD2XGXhEeWD7dtjtQ_HLQ" label="+"/>
+          <cardinality xmi:id="_BTD2XWXhEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+          <type xmi:id="_BTD2W2XhEeWD7dtjtQ_HLQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AHk6smXhEeWD7dtjtQ_HLQ" name="TrackingModul" associationsIn="_-Lr1sGXgEeWD7dtjtQ_HLQ" associationsOut="_AHk6oGXhEeWD7dtjtQ_HLQ _AHk6qmXhEeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNvmXgEeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_AHk6s2XhEeWD7dtjtQ_HLQ" position="57.0,290.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AHk6tGXhEeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_AHk6tWXhEeWD7dtjtQ_HLQ" name="trackingManager">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNwmXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_AHk6tmXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_AHk6t2XhEeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_AHk6uGXhEeWD7dtjtQ_HLQ" name="TrackingManager">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FIhyGXgEeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AHk6uWXhEeWD7dtjtQ_HLQ" name="trackingEvent">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lSog2XgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_AHk6umXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_AHk6u2XhEeWD7dtjtQ_HLQ" label="*" max="-1"/>
+      <type xmi:id="_AHk6vGXhEeWD7dtjtQ_HLQ" name="TrackingEvent">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNt2XgEeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AHk6vWXhEeWD7dtjtQ_HLQ" name="reportModul">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lSohmXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_AHk6vmXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_AHk6v2XhEeWD7dtjtQ_HLQ" label="*" max="-1"/>
+      <type xmi:id="_AHk6wGXhEeWD7dtjtQ_HLQ" name="ReportModul">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lbyc2XgEeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AHk6wWXhEeWD7dtjtQ_HLQ" name="started">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lSoiWXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_AHk6wmXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_AHk6w2XhEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_AHk6xGXhEeWD7dtjtQ_HLQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AHk6xWXhEeWD7dtjtQ_HLQ" name="startTracking">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lSoimXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_AHk6xmXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_AHk6x2XhEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_AHk6yGXhEeWD7dtjtQ_HLQ" name="stopTracking">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lSoi2XgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_AHk6yWXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_AHk6ymXhEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_BTD2XmXhEeWD7dtjtQ_HLQ" name="TrackingEvent" associationsIn="_AHk6oGXhEeWD7dtjtQ_HLQ _BTD2UGXhEeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNt2XgEeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_BTD2X2XhEeWD7dtjtQ_HLQ" position="411.0,319.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BTD2YGXhEeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_BTD2YWXhEeWD7dtjtQ_HLQ" name="trackingModul">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-lbydWXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BTD2YmXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BTD2Y2XhEeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_BTD2ZGXhEeWD7dtjtQ_HLQ" name="TrackingModul">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNvmXgEeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BTD2ZWXhEeWD7dtjtQ_HLQ" name="encoding">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_BKRGs2XhEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BTD2ZmXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BTD2Z2XhEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BTD2aGXhEeWD7dtjtQ_HLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BTD2aWXhEeWD7dtjtQ_HLQ" name="trackingManager">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_BKRGtGXhEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_BTD2amXhEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_BTD2a2XhEeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_BTD2bGXhEeWD7dtjtQ_HLQ" name="TrackingManager">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FIhyGXgEeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_-Lr10mXgEeWD7dtjtQ_HLQ" name="TrackingManager" associationsIn="_-Lr1ymXgEeWD7dtjtQ_HLQ" associationsOut="_-Lr1sGXgEeWD7dtjtQ_HLQ _BTD2UGXhEeWD7dtjtQ_HLQ">
+    <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FIhyGXgEeWD7dtjtQ_HLQ"/>
+    <visualProperties xmi:id="_-Lr102XgEeWD7dtjtQ_HLQ" position="88.0,45.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-Lr11GXgEeWD7dtjtQ_HLQ" label="+"/>
+    <attributes xmi:id="_-Lr11WXgEeWD7dtjtQ_HLQ" name="trackingEvent">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FRruWXgEeWD7dtjtQ_HLQ"/>
+      <stereotypes xmi:id="_-Lr11mXgEeWD7dtjtQ_HLQ" name="Generics">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FRrumXgEeWD7dtjtQ_HLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-Lr112XgEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-Lr12GXgEeWD7dtjtQ_HLQ" label="*" max="-1"/>
+      <type xmi:id="_BKkBo2XhEeWD7dtjtQ_HLQ" name="TrackingEvent">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNt2XgEeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-Lr12mXgEeWD7dtjtQ_HLQ" name="evaluationManager">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FRrvGXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_-Lr122XgEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-Lr13GXgEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_-Lr13WXgEeWD7dtjtQ_HLQ" name="EvaluationManager">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNvGXgEeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-Lr13mXgEeWD7dtjtQ_HLQ" name="trackingModul">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FRrvWXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_-Lr132XgEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-Lr14GXgEeWD7dtjtQ_HLQ" label="0..1" max="1"/>
+      <type xmi:id="_-Lr14WXgEeWD7dtjtQ_HLQ" name="TrackingModul">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNvmXgEeWD7dtjtQ_HLQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-Lr14mXgEeWD7dtjtQ_HLQ" name="addTrackingEvent">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNuWXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_-Lr142XgEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-Lr15GXgEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-Lr15WXgEeWD7dtjtQ_HLQ" name="evaluationId">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNumXgEeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="_-Lr15mXgEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-Lr152XgEeWD7dtjtQ_HLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-Lr16GXgEeWD7dtjtQ_HLQ" name="trackingEvent">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNu2XgEeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="_-Lr16WXgEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-Lr16mXgEeWD7dtjtQ_HLQ" name="TrackingEvent">
+          <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNt2XgEeWD7dtjtQ_HLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-Lr162XgEeWD7dtjtQ_HLQ" name="addTrackingModul">
+      <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNwGXgEeWD7dtjtQ_HLQ"/>
+      <visibility xmi:id="_-Lr17GXgEeWD7dtjtQ_HLQ" label="+"/>
+      <cardinality xmi:id="_-Lr17WXgEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-Lr17mXgEeWD7dtjtQ_HLQ" name="trackingModul">
+        <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNwWXgEeWD7dtjtQ_HLQ"/>
+        <cardinality xmi:id="_-Lr172XgEeWD7dtjtQ_HLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-Lr18GXgEeWD7dtjtQ_HLQ" name="TrackingModul">
+          <modelElement href="de.uks.evaluation-framework.tracking.uml#_-FlNvmXgEeWD7dtjtQ_HLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

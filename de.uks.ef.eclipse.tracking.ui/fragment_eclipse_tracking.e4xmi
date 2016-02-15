@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_b7AO0A28EeWvXpqWJRG-2A">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_c8h9QA28EeWvXpqWJRG-2A" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_hQ1EAA28EeWvXpqWJRG-2A" elementId="de.uks.ef.eclipse.tracking.part" label="Tracking View" closeable="true" contributionURI="bundleclass://de.uks.ef.eclipse.tracking.ui/de.uks.ef.eclipse.tracking.ui.parts.TrackingViewPart"/>
+  </fragments>
+</fragment:ModelFragments>

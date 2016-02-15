@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_UF5r0BDSEeWXQ6hMznMpyA">
+  <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U31fEBDSEeWXQ6hMznMpyA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VRRSwBDSEeWXQ6hMznMpyA" source="_VRRS2xDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8mDQBDSEeWXQ6hMznMpyA"/>
+    <stereotypes xmi:id="_VRRSwRDSEeWXQ6hMznMpyA" name="Reference">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8mDQhDSEeWXQ6hMznMpyA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VRRSwhDSEeWXQ6hMznMpyA" text=""/>
+    <sourceRole xmi:id="_VRRSwxDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8mDQRDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_VRRSxBDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRSxRDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VRRSxhDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluation" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8ANahDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_x2ZxEBDbEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8ANaxDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_VRRSxxDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRSyBDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VRRSyRDSEeWXQ6hMznMpyA" source="_VRRS2xDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8mDQxDSEeWXQ6hMznMpyA"/>
+    <stereotypes xmi:id="_VRRSyhDSEeWXQ6hMznMpyA" name="Reference">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8mDRRDSEeWXQ6hMznMpyA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VRRSyxDSEeWXQ6hMznMpyA" text=""/>
+    <sourceRole xmi:id="_VRRSzBDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8mDRBDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_VRRSzRDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRSzhDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VRRSzxDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationManager" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8ANdBDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_x2aYIBDbEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8JXUBDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_VRRS0BDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRS0RDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VRRS0hDSEeWXQ6hMznMpyA" sourceAnchor="165.0,213.0" targetAnchor="139.0,15.0" target="_h8Ib0BDSEeWXQ6hMznMpyA" source="_VRRS2xDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8mDRhDSEeWXQ6hMznMpyA"/>
+    <bendpoints xmi:id="_5wTFgBDbEeWXQ6hMznMpyA" sourceY="133" targetX="321"/>
+    <stereotypes xmi:id="_VRRS0xDSEeWXQ6hMznMpyA" name="Reference">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8v0QBDSEeWXQ6hMznMpyA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VRRS1BDSEeWXQ6hMznMpyA" text="">
+      <visualProperties xmi:id="_iAAPMBDSEeWXQ6hMznMpyA" position="-194.99999999999994,32.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VRRS1RDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8mDRxDSEeWXQ6hMznMpyA"/>
+      <visualProperties xmi:id="_h_2eMxDSEeWXQ6hMznMpyA" position="-17.0,30.0"/>
+      <visibility xmi:id="_VRRS1hDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRS1xDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VRRS2BDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationSender" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8JXWRDSEeWXQ6hMznMpyA"/>
+      <visualProperties xmi:id="_iAAPMRDSEeWXQ6hMznMpyA" position="54.0,-17.0"/>
+      <stereotypes xmi:id="_x2a_MBDbEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8JXWhDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_VRRS2RDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRS2hDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bLzXgBDSEeWXQ6hMznMpyA" sourceAnchor="0.0,91.0" targetAnchor="294.0,96.0" dashed="true" superClass="_bMGSgxDSEeWXQ6hMznMpyA" subClass="_VRRS2xDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U7jhcBDSEeWXQ6hMznMpyA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bLzXgRDSEeWXQ6hMznMpyA" sourceAnchor="19.0,0.0" targetAnchor="117.0,192.0" target="_bMGSgxDSEeWXQ6hMznMpyA" source="_h8Ib0BDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bIOfEhDSEeWXQ6hMznMpyA"/>
+    <nameVisual xmi:id="_bL8hcBDSEeWXQ6hMznMpyA" text="">
+      <visualProperties xmi:id="_iAAPMxDSEeWXQ6hMznMpyA" position="-13.0,12.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bL8hcRDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationSender" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHVuQhDSEeWXQ6hMznMpyA"/>
+      <visualProperties xmi:id="_iAAPMhDSEeWXQ6hMznMpyA" position="41.0,-46.0"/>
+      <visibility xmi:id="_bMGSeBDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSdxDSEeWXQ6hMznMpyA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bMGScBDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bIOfEBDSEeWXQ6hMznMpyA"/>
+      <visualProperties xmi:id="_iAAPNBDSEeWXQ6hMznMpyA" position="41.0,1.0"/>
+      <visibility xmi:id="_bMGSehDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSeRDSEeWXQ6hMznMpyA" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bLzXghDSEeWXQ6hMznMpyA" target="_bMGSgxDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bIOfFRDSEeWXQ6hMznMpyA"/>
+    <nameVisual xmi:id="_bMGScRDSEeWXQ6hMznMpyA" text=""/>
+    <sourceRole xmi:id="_bMGSchDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluation" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHe4MBDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSfBDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSexDSEeWXQ6hMznMpyA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bMGScxDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bIOfExDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSfhDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSfRDSEeWXQ6hMznMpyA" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bLzXgxDSEeWXQ6hMznMpyA" source="_bMGSgxDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bIOfGRDSEeWXQ6hMznMpyA"/>
+    <nameVisual xmi:id="_bMGSdBDSEeWXQ6hMznMpyA" text=""/>
+    <sourceRole xmi:id="_bMGSdRDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bIOfFhDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSgBDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSfxDSEeWXQ6hMznMpyA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bMGSdhDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationManager" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHe4MhDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSghDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSgRDSEeWXQ6hMznMpyA" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_hU3AcBDSEeWXQ6hMznMpyA" sourceAnchor="81.0,73.0" targetAnchor="83.0,192.0" target="_bMGSgxDSEeWXQ6hMznMpyA" source="_hVTFUhDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hRSIChDSEeWXQ6hMznMpyA"/>
+    <bendpoints xmi:id="_5wTskBDbEeWXQ6hMznMpyA" sourceY="43" targetX="601" targetY="249"/>
+    <bendpoints xmi:id="_5wTskRDbEeWXQ6hMznMpyA" sourceX="-601" sourceY="43" targetY="249"/>
+    <stereotypes xmi:id="_hVAKZBDSEeWXQ6hMznMpyA" name="Reference">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hRb5ABDSEeWXQ6hMznMpyA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_hVAKYRDSEeWXQ6hMznMpyA" text="">
+      <visualProperties xmi:id="_haz3chDSEeWXQ6hMznMpyA" position="7.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_hVAKYhDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hRSICxDSEeWXQ6hMznMpyA"/>
+      <visualProperties xmi:id="_haz3cRDSEeWXQ6hMznMpyA" position="-123.0,-4.0"/>
+      <visibility xmi:id="_hVJ7YRDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_hVJ7YBDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_hVAKYxDSEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hRI-ERDSEeWXQ6hMznMpyA"/>
+      <visualProperties xmi:id="_haz3cxDSEeWXQ6hMznMpyA" position="-146.0,33.999999999999886"/>
+      <stereotypes xmi:id="_x2bmQBDbEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hRI-EhDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_hVTFUBDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_hVJ7YhDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_hVAKYBDSEeWXQ6hMznMpyA" sourceAnchor="0.0,56.0" targetAnchor="139.0,45.0" dashed="true" superClass="_h8Ib0BDSEeWXQ6hMznMpyA" subClass="_hVTFUhDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hRI-EBDSEeWXQ6hMznMpyA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_2ZY0EBDbEeWXQ6hMznMpyA" target="_2ZapQBDbEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_2W12YBDbEeWXQ6hMznMpyA"/>
+    <nameVisual xmi:id="_2ZZbIBDbEeWXQ6hMznMpyA" text=""/>
+    <sourceRole xmi:id="_2ZZbIRDbEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationStep" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_2WqQMhDbEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_2ZZbIhDbEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_2ZZbIxDbEeWXQ6hMznMpyA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_2ZZbJBDbEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationStepConfiguration" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_2W1PUBDbEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_2ZZbJRDbEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_2ZZbJhDbEeWXQ6hMznMpyA" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_5VCs4BDbEeWXQ6hMznMpyA" sourceAnchor="0.0,26.0" targetAnchor="246.0,36.0" dashed="true" superClass="_2ZapQBDbEeWXQ6hMznMpyA" subClass="_5VMd4BDbEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_5RuTIBDbEeWXQ6hMznMpyA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5VDT8BDbEeWXQ6hMznMpyA" source="_5VMd4BDbEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_5R3dEBDbEeWXQ6hMznMpyA"/>
+    <stereotypes xmi:id="_5VEiEhDbEeWXQ6hMznMpyA" name="Reference">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_5R4rMBDbEeWXQ6hMznMpyA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5VD7ABDbEeWXQ6hMznMpyA" text=""/>
+    <sourceRole xmi:id="_5VEiEBDbEeWXQ6hMznMpyA" aggregationKind="NONE" name="">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_5R3dERDbEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_5VEiFBDbEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_5VEiExDbEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5VEiERDbEeWXQ6hMznMpyA" aggregationKind="NONE" name="evaluationStep" navigable="true">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_5RwvYBDbEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_5VFJIRDbEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_5VFJIBDbEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bMGSgxDSEeWXQ6hMznMpyA" name="EvaluationConfiguration" associationsIn="_bLzXgRDSEeWXQ6hMznMpyA _bLzXghDSEeWXQ6hMznMpyA _hU3AcBDSEeWXQ6hMznMpyA" associationsOut="_bLzXgxDSEeWXQ6hMznMpyA" subclassedBy="_bLzXgBDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U6z6khDSEeWXQ6hMznMpyA"/>
+    <visualProperties xmi:id="_bMGShBDSEeWXQ6hMznMpyA" position="34.0,83.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bMGShRDSEeWXQ6hMznMpyA" label="+"/>
+    <attributes xmi:id="_bMGShhDSEeWXQ6hMznMpyA" name="email">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHL9QBDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGShxDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSiBDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_bMGSiRDSEeWXQ6hMznMpyA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bMGSihDSEeWXQ6hMznMpyA" name="url">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHVuQBDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSixDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSjBDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_bMGSjRDSEeWXQ6hMznMpyA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bMGSjhDSEeWXQ6hMznMpyA" name="optionalIdentity">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHVuQRDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSjxDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSkBDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_bMGSkRDSEeWXQ6hMznMpyA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bMGSkhDSEeWXQ6hMznMpyA" name="evaluationSender">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHVuQhDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSkxDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSlBDSEeWXQ6hMznMpyA" label="0..1" max="1"/>
+      <type xmi:id="_bMGSlRDSEeWXQ6hMznMpyA" name="EvaluationSender">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U7QmgRDSEeWXQ6hMznMpyA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bMGSlhDSEeWXQ6hMznMpyA" name="evaluation">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHe4MBDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSlxDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSmBDSEeWXQ6hMznMpyA" label="0..1" max="1"/>
+      <type xmi:id="_bMGSmRDSEeWXQ6hMznMpyA" name="Evaluation">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U6z6kBDSEeWXQ6hMznMpyA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bMGSmhDSEeWXQ6hMznMpyA" name="evaluationManager">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHe4MhDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSmxDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_bMGSnBDSEeWXQ6hMznMpyA" label="0..1" max="1"/>
+      <type xmi:id="_bMGSnRDSEeWXQ6hMznMpyA" name="EvaluationManager">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U7G1gBDSEeWXQ6hMznMpyA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bMGSnhDSEeWXQ6hMznMpyA" name="sendToEmail">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHopMBDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSnxDSEeWXQ6hMznMpyA" label="+"/>
+    </operations>
+    <operations xmi:id="_bMGSoBDSEeWXQ6hMznMpyA" name="sendToUrl">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bHopMRDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_bMGSoRDSEeWXQ6hMznMpyA" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VRRS2xDSEeWXQ6hMznMpyA" name="EclipseEvaluationConfiguration" associationsOut="_VRRSwBDSEeWXQ6hMznMpyA _VRRSyRDSEeWXQ6hMznMpyA _VRRS0hDSEeWXQ6hMznMpyA" generalizations="_bLzXgBDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U4bU8BDSEeWXQ6hMznMpyA"/>
+    <visualProperties xmi:id="_VRRS3BDSEeWXQ6hMznMpyA" position="427.0,88.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VRRS3RDSEeWXQ6hMznMpyA" label="+"/>
+    <attributes xmi:id="_VRRS3hDSEeWXQ6hMznMpyA" name="email">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U72cYBDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_VRRS3xDSEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U72cYRDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_VRRS4BDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRS4RDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_VRRS4hDSEeWXQ6hMznMpyA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VRRS4xDSEeWXQ6hMznMpyA" name="url">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U72cahDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_VRRS5BDSEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U72caxDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_VRRS5RDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRS5hDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_VRRS5xDSEeWXQ6hMznMpyA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VRRS6BDSEeWXQ6hMznMpyA" name="optionalIdentity">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8ANaBDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_VRRS6RDSEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8ANaRDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_VRRS6hDSEeWXQ6hMznMpyA" label="-"/>
+      <cardinality xmi:id="_VRRS6xDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_VRRS7BDSEeWXQ6hMznMpyA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VRRS7RDSEeWXQ6hMznMpyA" name="evaluation">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8ANahDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_x2lXQBDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x2l-UBDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x2w9cBDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_VRRS7xDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRS8BDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_VRRS8RDSEeWXQ6hMznMpyA" name="Evaluation">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U6z6kBDSEeWXQ6hMznMpyA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VRRS8hDSEeWXQ6hMznMpyA" name="evaluationManager">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8ANdBDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_x2mlYBDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x2nMcBDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x2xkgBDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_VRRS9BDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRS9RDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_VRRS9hDSEeWXQ6hMznMpyA" name="EvaluationManager">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U7G1gBDSEeWXQ6hMznMpyA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VRRS9xDSEeWXQ6hMznMpyA" defaultValue="new EclipseEvaluationSender()" name="evaluationSender">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U8JXWRDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_x2oakBDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x2q20BDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x2xkgRDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_VRRS-RDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_VRRS-hDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_VRRS-xDSEeWXQ6hMznMpyA" name="EvaluationSender">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U7QmgRDSEeWXQ6hMznMpyA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VRRS_BDSEeWXQ6hMznMpyA" name="setOptionalIdentity">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U4uP4BDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_VRRS_RDSEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U4uP4hDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VRRS_hDSEeWXQ6hMznMpyA" name="Annotations">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U4uP4xDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_VRRS_xDSEeWXQ6hMznMpyA" label="+"/>
+      <parameters xmi:id="_VRRTABDSEeWXQ6hMznMpyA" name="optionalIdentity">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U4uP4RDSEeWXQ6hMznMpyA"/>
+        <type xmi:id="_VRRTARDSEeWXQ6hMznMpyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VRRTAhDSEeWXQ6hMznMpyA" name="isOptionalIdentity">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U44A4RDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_VRRTAxDSEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U44A4xDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VRRTBBDSEeWXQ6hMznMpyA" name="Annotations">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U44A5BDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_VRRTBRDSEeWXQ6hMznMpyA" label="+"/>
+      <outParameters xmi:id="_VRRTBhDSEeWXQ6hMznMpyA">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U44A4hDSEeWXQ6hMznMpyA"/>
+        <type xmi:id="_VRRTBxDSEeWXQ6hMznMpyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VRRTCBDSEeWXQ6hMznMpyA" name="sendToEmail">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U44A5hDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_VRRTCRDSEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U44A5xDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VRRTChDSEeWXQ6hMznMpyA" name="Annotations">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U5Bx4BDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_VRRTCxDSEeWXQ6hMznMpyA" label="+"/>
+    </operations>
+    <operations xmi:id="_VRRTDBDSEeWXQ6hMznMpyA" name="sendToUrl">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U5Bx4hDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_VRRTDRDSEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U5Bx4xDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VRRTDhDSEeWXQ6hMznMpyA" name="Annotations">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U5Bx5BDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_VRRTDxDSEeWXQ6hMznMpyA" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_h8Ib0BDSEeWXQ6hMznMpyA" name="EvaluationSender" associationsIn="_VRRS0hDSEeWXQ6hMznMpyA" associationsOut="_bLzXgRDSEeWXQ6hMznMpyA" subclassedBy="_hVAKYBDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U7QmgRDSEeWXQ6hMznMpyA"/>
+    <visualProperties xmi:id="_h8Ib0RDSEeWXQ6hMznMpyA" position="132.0,419.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h8Ib0hDSEeWXQ6hMznMpyA" label="+"/>
+    <attributes xmi:id="_h8Ib0xDSEeWXQ6hMznMpyA" name="evaluationConfiguration">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_bIOfEBDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_h8Ib1BDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_h8Ib1RDSEeWXQ6hMznMpyA" label="0..1" max="1"/>
+      <type xmi:id="_h8Ib1hDSEeWXQ6hMznMpyA" name="EvaluationConfiguration">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U6z6khDSEeWXQ6hMznMpyA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h8Ib1xDSEeWXQ6hMznMpyA" name="sendToEmail">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_h5APUxDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_h8Ib2BDSEeWXQ6hMznMpyA" label="+"/>
+    </operations>
+    <operations xmi:id="_h8Ib2RDSEeWXQ6hMznMpyA" name="sendToUrl">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_h5APVBDSEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_h8Ib2hDSEeWXQ6hMznMpyA" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_hVTFUhDSEeWXQ6hMznMpyA" name="EclipseEvaluationSender" associationsOut="_hU3AcBDSEeWXQ6hMznMpyA" generalizations="_hVAKYBDSEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hQZXMBDSEeWXQ6hMznMpyA"/>
+    <visualProperties xmi:id="_hVTFUxDSEeWXQ6hMznMpyA" position="637.0,408.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_hVTFVBDSEeWXQ6hMznMpyA" label="+"/>
+    <attributes xmi:id="_hVTFVRDSEeWXQ6hMznMpyA" name="evaluationConfiguration">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hRI-ERDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_x2ssABDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x2tTEBDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x2yyoBDbEeWXQ6hMznMpyA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_hVTFVxDSEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_hVTFWBDSEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_hVTFWRDSEeWXQ6hMznMpyA" name="EvaluationConfiguration">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_U6z6khDSEeWXQ6hMznMpyA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_hVTFWhDSEeWXQ6hMznMpyA" name="sendToEmail">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hQihIBDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_hVTFWxDSEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hQihIRDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_hVTFXBDSEeWXQ6hMznMpyA" name="Annotations">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hQihIhDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_hVTFXRDSEeWXQ6hMznMpyA" label="+"/>
+    </operations>
+    <operations xmi:id="_hVTFXhDSEeWXQ6hMznMpyA" name="sendToUrl">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hQihJBDSEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_hVc2UBDSEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hQihJRDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_hVc2URDSEeWXQ6hMznMpyA" name="Annotations">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_hQihJhDSEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_hVc2UhDSEeWXQ6hMznMpyA" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_2ZapQBDbEeWXQ6hMznMpyA" name="EvaluationStepConfiguration" associationsIn="_2ZY0EBDbEeWXQ6hMznMpyA" subclassedBy="_5VCs4BDbEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_2Wnz8BDbEeWXQ6hMznMpyA"/>
+    <visualProperties xmi:id="_2ZapQRDbEeWXQ6hMznMpyA" position="53.0,-44.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2ZapQhDbEeWXQ6hMznMpyA" label="+"/>
+    <attributes xmi:id="_2ZapQxDbEeWXQ6hMznMpyA" name="evaluationStep">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_2WqQMhDbEeWXQ6hMznMpyA"/>
+      <visibility xmi:id="_2ZapRBDbEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_2ZapRRDbEeWXQ6hMznMpyA" label="0..1" max="1"/>
+      <type xmi:id="_2ZapRhDbEeWXQ6hMznMpyA" name="EvaluationStep">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_2WyMABDbEeWXQ6hMznMpyA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5VMd4BDbEeWXQ6hMznMpyA" name="EclipseEvaluationStepConfiguration" associationsOut="_5VDT8BDbEeWXQ6hMznMpyA" generalizations="_5VCs4BDbEeWXQ6hMznMpyA">
+    <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_5RlJMBDbEeWXQ6hMznMpyA"/>
+    <visualProperties xmi:id="_5VMd4RDbEeWXQ6hMznMpyA" position="462.0,-34.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5VMd4hDbEeWXQ6hMznMpyA" label="+"/>
+    <attributes xmi:id="_5VMd4xDbEeWXQ6hMznMpyA" name="evaluationStep">
+      <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_5RwvYBDbEeWXQ6hMznMpyA"/>
+      <stereotypes xmi:id="_5VMd5BDbEeWXQ6hMznMpyA" name="LegacyStyledElement">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_5RxWcBDbEeWXQ6hMznMpyA"/>
+      </stereotypes>
+      <visibility xmi:id="_5VMd5RDbEeWXQ6hMznMpyA" label="+"/>
+      <cardinality xmi:id="_5VMd5hDbEeWXQ6hMznMpyA" label="1" max="1" min="1"/>
+      <type xmi:id="_5VMd5xDbEeWXQ6hMznMpyA" name="EvaluationStep">
+        <modelElement href="de.uks.evaluation-framework.eclipse.core.interfaces.uml#_2WyMABDbEeWXQ6hMznMpyA"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="de.uks.ef.eclipse.tracking.BreakpointTrackingModul" name="de.uks.ef.eclipse.tracking.BreakpointTrackingModul" schema="schema/de.uks.ef.eclipse.tracking.BreakpointTrackingModul.exsd"/>
+   <extension
+         point="de.uks.ef.eclipse.tracking.BreakpointTrackingModul">
+      <BreakpointReportModul
+            class="de.uks.ef.eclipse.tracking.breakpointtrackingmodul.report.CountBreakpointModul">
+         <BreakpointReport
+               class="de.uks.ef.eclipse.tracking.breakpointtrackingmodul.report.CountBreakpointPieChartReport">
+         </BreakpointReport>
+      </BreakpointReportModul>
+   </extension>
+</plugin>

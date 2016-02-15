@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.uks.ef.eclipse.tracking.modules"
+      label="Evluation4Eclipse - Core Tracking Modules"
+      version="0.0.1.qualifier">
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <url>
+      <update label="Evaluation4Eclipse Update Site" url="http://www.se.eecs.uni-kassel.de/fileadmin/se/evaluations/update"/>
+   </url>
+
+   <plugin
+         id="de.uks.ef.eclipse.tracking.modul.breakpoint"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uks.ef.eclipse.tracking.modul.command"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uks.ef.eclipse.tracking.modul.part"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

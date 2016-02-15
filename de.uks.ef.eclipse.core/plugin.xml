@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="de.uks.ef.EvaluationManager" name="EvaluationManager" schema="schema/de.uks.ef.EvaluationManager.exsd"/>
+   <extension-point id="de.uks.ef.QuestionnaireType" name="QuestionnaireType" schema="schema/de.uks.ef.QuestionnaireType.exsd"/>
+   <extension-point id="de.uks.ef.TrackingManager" name="TrackingManager" schema="schema/de.uks.ef.TrackingManager.exsd"/>
+   
+   <extension
+         point="de.uks.ef.QuestionnaireType">
+      <QuestionnaireType
+            id="String">
+      </QuestionnaireType>
+      <QuestionnaireType
+            id="Integer">
+      </QuestionnaireType>
+      <QuestionnaireType
+            id="StringArea">
+      </QuestionnaireType>
+      <QuestionnaireType
+            id="Choice">
+      </QuestionnaireType>
+   </extension>
+</plugin>
